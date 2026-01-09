@@ -1,0 +1,24 @@
+{
+  "title": "Guia Universal de Integração",
+  "subtitle": "WhatsApp Business API – Guia prático oficial",
+  "intro": "Este guia destina-se a orientar empresas, mesmo sem conhecimentos técnicos, no processo correcto de integração com a WhatsApp Business API oficial da Meta.",
+
+  "objective_title": "Objectivo do Guia",
+  "objective_text": "Explicar de forma simples todos os passos necessários para permitir que um sistema externo se ligue oficialmente à WhatsApp Business API.",
+
+  "steps_title": "Etapas Obrigatórias",
+  "step1": "Criar ou aceder a um Business Manager na Meta",
+  "step2": "Validar a empresa com documentação legal",
+  "step3": "Criar uma aplicação no Meta Developers",
+  "step4": "Registar um número exclusivo para WhatsApp API",
+  "step5": "Criar e aprovar templates de mensagens",
+  "step6": "Gerar tokens e identificadores técnicos",
+
+  "data_title": "Dados a fornecer ao programador",
+  "data_list": "ID da App, WhatsApp Business Account ID, Phone Number ID, Token permanente, templates aprovados.",
+
+  "interaction_title": "Definição de interação",
+  "interaction_text": "Uma interação corresponde a uma mensagem do utilizador e a respectiva resposta do sistema.",
+
+  "pdf_button": "Descarregar este guia em PDF"
+}

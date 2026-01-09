@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>FAQ – WhatsApp Business API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <select id="languageSelector" onchange="changeLanguage(this.value)">
+    <option value="pt-br">🇧🇷 PT-BR</option>
+    <option value="pt-pt">🇵🇹 PT-PT</option>
+    <option value="pt-ao">🇦🇴 PT-AO</option>
+    <option value="en">🇺🇸 EN</option>
+  </select>
+</header>
+
+<main id="content">
+  <h1 data-i18n="faq_title"></h1>
+
+  <h3 data-i18n="faq_q1"></h3>
+  <p data-i18n="faq_a1"></p>
+
+  <h3 data-i18n="faq_q2"></h3>
+  <p data-i18n="faq_a2"></p>
+
+  <h3 data-i18n="faq_q3"></h3>
+  <p data-i18n="faq_a3"></p>
+
+  <h3 data-i18n="faq_q4"></h3>
+  <p data-i18n="faq_a4"></p>
+
+  <button onclick="generatePDF()" data-i18n="pdf_button"></button>
+</main>
+
+<script src="script.js"></script>
+<script src="pdf.js"></script>
+</body>
+</html>

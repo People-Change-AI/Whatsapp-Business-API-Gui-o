@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6f8;
+  margin: 0;
+}
+
+header {
+  background: #111;
+  padding: 10px;
+  text-align: right;
+}
+
+select {
+  padding: 6px;
+}
+
+main {
+  max-width: 900px;
+  background: #fff;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0a7cff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
