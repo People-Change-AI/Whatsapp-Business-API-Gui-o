@@ -1,39 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="auto">
 <head>
   <meta charset="UTF-8" />
   <title>Termo de Responsabilidade</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<header>
-  <select id="languageSelector" onchange="changeLanguage(this.value)">
-    <option value="pt-br">🇧🇷 PT-BR</option>
-    <option value="pt-pt">🇵🇹 PT-PT</option>
-    <option value="pt-ao">🇦🇴 PT-AO</option>
-    <option value="en">🇺🇸 EN</option>
-  </select>
-</header>
-
-<main id="content">
-  <h1 data-i18n="term_title"></h1>
-
-  <p data-i18n="term_intro"></p>
-
-  <ul>
-    <li data-i18n="term_1"></li>
-    <li data-i18n="term_2"></li>
-    <li data-i18n="term_3"></li>
-    <li data-i18n="term_4"></li>
-  </ul>
-
-  <p data-i18n="term_final"></p>
-
-  <button onclick="generatePDF()" data-i18n="pdf_button"></button>
-</main>
+<h1 id="termo_title"></h1>
+<div id="termo_content"></div>
 
 <script src="script.js"></script>
-<script src="pdf.js"></script>
 </body>
 </html>

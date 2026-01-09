@@ -1,24 +1,36 @@
 {
   "title": "Guia Universal de Integração",
-  "subtitle": "WhatsApp Business API – Guia prático",
-  "intro": "Este guia foi preparado para orientar empresas angolanas, mesmo sem conhecimentos técnicos, no processo de integração com a WhatsApp Business API oficial da Meta.",
+  "subtitle": "WhatsApp Business API – Guia completo e prático passo a passo",
 
-  "objective_title": "Objectivo do Guia",
-  "objective_text": "Explicar de forma simples e directa todos os passos necessários para ligar qualquer sistema ao WhatsApp Business API.",
+  "content": "
+  <h2>Objectivo do Guia</h2>
+  <p>Este guia orienta empresas em Angola no processo correcto de integração com a WhatsApp Business API oficial da Meta.</p>
 
-  "steps_title": "Etapas Obrigatórias",
-  "step1": "Criar ou entrar no Business Manager da Meta",
-  "step2": "Validar a empresa com documentos legais",
-  "step3": "Criar uma aplicação no Meta Developers",
-  "step4": "Associar um número exclusivo ao WhatsApp API",
-  "step5": "Criar e aprovar mensagens modelo",
-  "step6": "Gerar tokens e dados técnicos",
+  <h2>O que é a WhatsApp Business API</h2>
+  <p>É a solução oficial da Meta para integrar sistemas empresariais ao WhatsApp.</p>
 
-  "data_title": "Informações que devem ser entregues ao técnico",
-  "data_list": "ID da aplicação, WABA ID, Phone Number ID, Token permanente e nomes dos templates aprovados.",
+  <h2>Pré-requisitos</h2>
+  <ul>
+    <li>Empresa registada</li>
+    <li>Documentos válidos</li>
+    <li>Email corporativo</li>
+    <li>Número exclusivo para API</li>
+  </ul>
 
-  "interaction_title": "O que significa interação?",
-  "interaction_text": "Cada interação é composta por uma pergunta do utilizador e a resposta automática do sistema.",
+  <h2>Interação</h2>
+  <p>Uma interação corresponde a uma pergunta do utilizador e uma resposta do sistema.</p>
+  ",
 
-  "pdf_button": "Descarregar este guia em PDF"
+  "faq_title": "Perguntas Frequentes",
+
+  "faq": "
+  <p><strong>Posso usar WhatsApp normal?</strong><br>Não.</p>
+  <p><strong>É pago?</strong><br>Sim.</p>
+  ",
+
+  "termo_title": "Termo de Responsabilidade",
+
+  "termo": "
+  <p>O cliente assume total responsabilidade pelo uso da WhatsApp Business API.</p>
+  "
 }

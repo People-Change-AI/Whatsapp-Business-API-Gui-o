@@ -1,35 +1,41 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f5f6f8;
+  background: #f4f6f8;
   margin: 0;
-}
-
-header {
-  background: #111;
-  padding: 10px;
-  text-align: right;
-}
-
-select {
-  padding: 6px;
-}
-
-main {
-  max-width: 900px;
-  background: #fff;
-  margin: 20px auto;
-  padding: 30px;
-  border-radius: 8px;
-}
-
-h1, h2, h3 {
+  padding: 20px;
   color: #222;
 }
 
+header {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+main {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
 button {
-  padding: 10px 20px;
-  background: #0a7cff;
+  padding: 10px 16px;
+  background: #0066ff;
+  color: white;
   border: none;
-  color: #fff;
+  border-radius: 6px;
   cursor: pointer;
+}
+
+a {
+  margin-left: 10px;
 }

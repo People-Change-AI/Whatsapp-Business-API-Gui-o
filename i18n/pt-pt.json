@@ -1,24 +1,50 @@
 {
   "title": "Guia Universal de Integração",
-  "subtitle": "WhatsApp Business API – Guia prático oficial",
-  "intro": "Este guia destina-se a orientar empresas, mesmo sem conhecimentos técnicos, no processo correcto de integração com a WhatsApp Business API oficial da Meta.",
+  "subtitle": "WhatsApp Business API – Guia completo e prático passo a passo",
 
-  "objective_title": "Objectivo do Guia",
-  "objective_text": "Explicar de forma simples todos os passos necessários para permitir que um sistema externo se ligue oficialmente à WhatsApp Business API.",
+  "content": "
+  <h2>Objetivo do Guia</h2>
+  <p>Este guia destina-se a orientar qualquer empresa, mesmo sem conhecimentos técnicos, no processo correto de integração com a WhatsApp Business API oficial da Meta.</p>
 
-  "steps_title": "Etapas Obrigatórias",
-  "step1": "Criar ou aceder a um Business Manager na Meta",
-  "step2": "Validar a empresa com documentação legal",
-  "step3": "Criar uma aplicação no Meta Developers",
-  "step4": "Registar um número exclusivo para WhatsApp API",
-  "step5": "Criar e aprovar templates de mensagens",
-  "step6": "Gerar tokens e identificadores técnicos",
+  <h2>O que é a WhatsApp Business API</h2>
+  <p>A WhatsApp Business API é a solução oficial da Meta para empresas que pretendem integrar sistemas como bots, CRM, ERP ou atendimento humano ao WhatsApp.</p>
+  <p>Não é uma aplicação móvel e requer aprovação prévia.</p>
 
-  "data_title": "Dados a fornecer ao programador",
-  "data_list": "ID da App, WhatsApp Business Account ID, Phone Number ID, Token permanente, templates aprovados.",
+  <h2>Pré-requisitos obrigatórios</h2>
+  <ul>
+    <li>Empresa legalmente constituída</li>
+    <li>Documentação oficial válida</li>
+    <li>Email corporativo</li>
+    <li>Número exclusivo para WhatsApp API</li>
+  </ul>
 
-  "interaction_title": "Definição de interação",
-  "interaction_text": "Uma interação corresponde a uma mensagem do utilizador e a respectiva resposta do sistema.",
+  <h2>Etapas obrigatórias de integração</h2>
+  <ol>
+    <li>Criar ou aceder ao Meta Business Manager</li>
+    <li>Verificar a empresa</li>
+    <li>Criar uma aplicação no Meta Developers</li>
+    <li>Adicionar o produto WhatsApp</li>
+    <li>Registar e validar o número</li>
+    <li>Criar e aprovar templates</li>
+    <li>Gerar tokens e identificadores</li>
+  </ol>
 
-  "pdf_button": "Descarregar este guia em PDF"
+  <h2>O que é uma interação</h2>
+  <p>Uma interação corresponde a uma mensagem do utilizador seguida de uma resposta do sistema.</p>
+  ",
+
+  "faq_title": "Perguntas Frequentes",
+
+  "faq": "
+  <p><strong>Posso usar um número pessoal?</strong><br>Não. É obrigatório um número exclusivo.</p>
+  <p><strong>Os templates são obrigatórios?</strong><br>Sim.</p>
+  <p><strong>Há custos?</strong><br>Sim, definidos pela Meta.</p>
+  ",
+
+  "termo_title": "Termo de Responsabilidade",
+
+  "termo": "
+  <p>O cliente reconhece que é responsável pelo cumprimento das políticas da Meta e pelos custos associados.</p>
+  <p>O uso indevido pode resultar em suspensão permanente.</p>
+  "
 }

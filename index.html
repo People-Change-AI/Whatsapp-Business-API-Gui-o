@@ -1,47 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="auto">
 <head>
   <meta charset="UTF-8" />
-  <title>WhatsApp Business API – Guia Universal</title>
+  <title>Guia Universal – WhatsApp Business API</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
 <header>
-  <select id="languageSelector" onchange="changeLanguage(this.value)">
-    <option value="pt-br">🇧🇷 PT-BR</option>
-    <option value="pt-pt">🇵🇹 PT-PT</option>
-    <option value="pt-ao">🇦🇴 PT-AO</option>
-    <option value="en">🇺🇸 EN</option>
+  <h1 id="title"></h1>
+  <p id="subtitle"></p>
+
+  <select id="languageSelector">
+    <option value="pt-br">🇧🇷 Português (BR)</option>
+    <option value="pt-pt">🇵🇹 Português (PT)</option>
+    <option value="pt-ao">🇦🇴 Português (AO)</option>
+    <option value="en">🇺🇸 English</option>
   </select>
 </header>
 
-<main id="content">
-  <h1 data-i18n="title"></h1>
-  <h2 data-i18n="subtitle"></h2>
-  <p data-i18n="intro"></p>
+<main id="content"></main>
 
-  <h3 data-i18n="objective_title"></h3>
-  <p data-i18n="objective_text"></p>
-
-  <h3 data-i18n="steps_title"></h3>
-  <ul>
-    <li data-i18n="step1"></li>
-    <li data-i18n="step2"></li>
-    <li data-i18n="step3"></li>
-    <li data-i18n="step4"></li>
-    <li data-i18n="step5"></li>
-    <li data-i18n="step6"></li>
-  </ul>
-
-  <h3 data-i18n="interaction_title"></h3>
-  <p data-i18n="interaction_text"></p>
-
-  <button onclick="generatePDF()" data-i18n="pdf_button"></button>
-</main>
+<div class="actions">
+  <button onclick="generatePDF()">📄 Baixar PDF</button>
+  <a href="faq.html">FAQ</a>
+  <a href="termo.html">Termo de Responsabilidade</a>
+</div>
 
 <script src="script.js"></script>
 <script src="pdf.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </body>
 </html>

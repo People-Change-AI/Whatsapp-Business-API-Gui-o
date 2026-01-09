@@ -1,32 +1,40 @@
-const supportedLanguages = ["pt-br", "pt-pt", "pt-ao", "en"];
+const supportedLangs = ["pt-br", "pt-pt", "pt-ao", "en"];
+const browserLang = navigator.language.toLowerCase();
+const defaultLang = supportedLangs.includes(browserLang)
+  ? browserLang
+  : browserLang.startsWith("pt") ? "pt-br" : "en";
 
-function detectBrowserLanguage() {
-  const lang = navigator.language.toLowerCase();
-  if (lang.startsWith("pt-pt")) return "pt-pt";
-  if (lang.startsWith("pt-ao")) return "pt-ao";
-  if (lang.startsWith("pt")) return "pt-br";
-  if (lang.startsWith("en")) return "en";
-  return "pt-br";
-}
+let currentLang = defaultLang;
 
 async function loadLanguage(lang) {
   const res = await fetch(`i18n/${lang}.json`);
   const data = await res.json();
 
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    if (data[key]) el.innerText = data[key];
-  });
+  if (document.getElementById("title")) {
+    document.getElementById("title").innerText = data.title;
+    document.getElementById("subtitle").innerText = data.subtitle;
+    document.getElementById("content").innerHTML = data.content;
+  }
 
-  document.getElementById("languageSelector").value = lang;
-  localStorage.setItem("lang", lang);
-}
+  if (document.getElementById("faq_title")) {
+    document.getElementById("faq_title").innerText = data.faq_title;
+    document.getElementById("faq_content").innerHTML = data.faq;
+  }
 
-function changeLanguage(lang) {
-  loadLanguage(lang);
+  if (document.getElementById("termo_title")) {
+    document.getElementById("termo_title").innerText = data.termo_title;
+    document.getElementById("termo_content").innerHTML = data.termo;
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const saved = localStorage.getItem("lang");
-  loadLanguage(saved || detectBrowserLanguage());
+  const selector = document.getElementById("languageSelector");
+  if (selector) {
+    selector.value = currentLang;
+    selector.addEventListener("change", e => {
+      currentLang = e.target.value;
+      loadLanguage(currentLang);
+    });
+  }
+  loadLanguage(currentLang);
 });

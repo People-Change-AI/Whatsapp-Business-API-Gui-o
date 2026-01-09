@@ -1,48 +1,42 @@
 {
   "title": "Guia Universal de Integração",
-  "subtitle": "WhatsApp Business API – Guia prático oficial",
-  "intro": "Este guia foi criado para orientar qualquer empresa, mesmo sem conhecimento técnico, a realizar corretamente o processo de integração com a WhatsApp Business API oficial da Meta.",
+  "subtitle": "WhatsApp Business API – Guia completo passo a passo",
+  "content": "
+  <h2>Objetivo</h2>
+  <p>Este guia orienta qualquer empresa, mesmo sem conhecimento técnico, a integrar corretamente a WhatsApp Business API.</p>
 
-  "objective_title": "Objetivo do Guia",
-  "objective_text": "Explicar de forma clara e passo a passo tudo o que é necessário para permitir que um sistema externo (bot, CRM, ERP ou atendimento humano) se conecte oficialmente ao WhatsApp Business API.",
+  <h2>Etapas Obrigatórias</h2>
+  <ol>
+    <li>Criar ou acessar um Meta Business Manager</li>
+    <li>Verificar a empresa</li>
+    <li>Criar um App no Meta Developers</li>
+    <li>Adicionar o produto WhatsApp</li>
+    <li>Registrar um número exclusivo</li>
+    <li>Criar e aprovar templates</li>
+    <li>Gerar tokens e IDs</li>
+  </ol>
 
-  "steps_title": "Etapas Obrigatórias",
-  "step1": "Criar ou acessar um Business Manager na Meta",
-  "step2": "Verificar a empresa com documentos oficiais",
-  "step3": "Criar um App no Meta Developers",
-  "step4": "Registrar um número exclusivo para WhatsApp API",
-  "step5": "Criar e aprovar templates de mensagens",
-  "step6": "Gerar tokens e IDs técnicos",
+  <h2>O que é uma interação?</h2>
+  <p>1 interação = 1 pergunta do usuário + 1 resposta do sistema.</p>
 
-  "data_title": "Dados que o cliente deve fornecer ao desenvolvedor",
-  "data_list": "ID do App, WhatsApp Business Account ID (WABA), Phone Number ID, Token permanente, Nome exato dos templates aprovados.",
-
-  "interaction_title": "O que é uma interação?",
-  "interaction_text": "Uma interação corresponde a uma pergunta do utilizador seguida de uma resposta do sistema.",
-
-  "pdf_button": "Baixar este guia em PDF",
-
-  "faq_title": "Perguntas Frequentes (FAQ)",
-
-  "faq_q1": "Preciso pagar o WhatsApp?",
-  "faq_a1": "Sim. A WhatsApp Business API é um serviço pago, cobrado por conversas.",
-
-  "faq_q2": "Posso usar meu número pessoal?",
-  "faq_a2": "Não. O número deve estar livre e exclusivo para a API.",
-
-  "faq_q3": "Quem cria os templates?",
-  "faq_a3": "Os templates são criados pelo cliente e aprovados pela Meta.",
-
-  "faq_q4": "Sem templates o sistema funciona?",
-  "faq_a4": "Somente para respostas dentro da janela de 24h.",
-
-  "term_title": "Termo de Responsabilidade do Cliente",
-  "term_intro": "Ao prosseguir, o cliente declara estar ciente e de acordo que:",
-
-  "term_1": "É responsável pela criação e veracidade da conta Meta Business.",
-  "term_2": "É responsável pela aprovação dos templates junto à Meta.",
-  "term_3": "Custos de mensagens são pagos diretamente à Meta.",
-  "term_4": "O desenvolvedor não tem controlo sobre políticas da Meta.",
-
-  "term_final": "Este termo é válido para qualquer projeto de integração com WhatsApp Business API."
+  <h2>Dados que o cliente deve fornecer</h2>
+  <ul>
+    <li>WhatsApp Business Account ID</li>
+    <li>Phone Number ID</li>
+    <li>Access Token</li>
+    <li>Número aprovado</li>
+    <li>Templates aprovados</li>
+  </ul>
+  ",
+  "faq_title": "Perguntas Frequentes",
+  "faq": "
+  <p><strong>Posso usar meu WhatsApp pessoal?</strong><br>Não.</p>
+  <p><strong>Preciso de templates?</strong><br>Sim, obrigatoriamente.</p>
+  <p><strong>Existe risco de bloqueio?</strong><br>Sim, se violar políticas da Meta.</p>
+  ",
+  "termo_title": "Termo de Responsabilidade",
+  "termo": "
+  <p>O cliente declara estar ciente das regras da Meta, custos por uso e responsabilidades legais.</p>
+  <p>O uso indevido pode resultar em bloqueio permanente da conta.</p>
+  "
 }

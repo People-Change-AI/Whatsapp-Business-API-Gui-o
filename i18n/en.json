@@ -1,24 +1,37 @@
 {
   "title": "Universal Integration Guide",
-  "subtitle": "WhatsApp Business API – Official Guide",
-  "intro": "This guide was created to help any company, even without technical knowledge, correctly integrate with Meta’s official WhatsApp Business API.",
+  "subtitle": "WhatsApp Business API – Complete step-by-step guide",
 
-  "objective_title": "Guide Purpose",
-  "objective_text": "Explain step by step everything required to allow any system to officially connect to the WhatsApp Business API.",
+  "content": "
+  <h2>Guide Objective</h2>
+  <p>This guide helps any company, even without technical knowledge, to correctly integrate with the official WhatsApp Business API.</p>
 
-  "steps_title": "Mandatory Steps",
-  "step1": "Create or access a Meta Business Manager",
-  "step2": "Verify the company with legal documents",
-  "step3": "Create an app in Meta Developers",
-  "step4": "Register a dedicated WhatsApp API number",
-  "step5": "Create and approve message templates",
-  "step6": "Generate access tokens and IDs",
+  <h2>What is WhatsApp Business API</h2>
+  <p>The WhatsApp Business API is Meta’s official solution for integrating business systems with WhatsApp.</p>
 
-  "data_title": "Data required by the developer",
-  "data_list": "App ID, WhatsApp Business Account ID, Phone Number ID, Permanent Token, Approved template names.",
+  <h2>Prerequisites</h2>
+  <ul>
+    <li>Legally registered company</li>
+    <li>Valid official documents</li>
+    <li>Corporate email</li>
+    <li>Exclusive phone number for API</li>
+  </ul>
 
-  "interaction_title": "What is an interaction?",
-  "interaction_text": "One interaction equals one user message plus one system reply.",
+  <h2>What is an interaction</h2>
+  <p>One interaction equals one user message followed by one system response.</p>
+  ",
 
-  "pdf_button": "Download this guide as PDF"
+  "faq_title": "Frequently Asked Questions",
+
+  "faq": "
+  <p><strong>Can I use my personal WhatsApp?</strong><br>No.</p>
+  <p><strong>Are message templates mandatory?</strong><br>Yes.</p>
+  <p><strong>Are there costs?</strong><br>Yes, defined by Meta.</p>
+  ",
+
+  "termo_title": "Client Responsibility Agreement",
+
+  "termo": "
+  <p>The client acknowledges responsibility for proper use and compliance with Meta policies.</p>
+  "
 }

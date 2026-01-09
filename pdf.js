@@ -1,13 +1,40 @@
-function generatePDF() {
-  const element = document.getElementById("content");
+const supportedLangs = ["pt-br", "pt-pt", "pt-ao", "en"];
+const browserLang = navigator.language.toLowerCase();
+const defaultLang = supportedLangs.includes(browserLang)
+  ? browserLang
+  : browserLang.startsWith("pt") ? "pt-br" : "en";
 
-  const opt = {
-    margin: 0.5,
-    filename: "whatsapp-business-api-guide.pdf",
-    image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 2 },
-    jsPDF: { unit: "in", format: "a4", orientation: "portrait" }
-  };
+let currentLang = defaultLang;
 
-  html2pdf().set(opt).from(element).save();
+async function loadLanguage(lang) {
+  const res = await fetch(`i18n/${lang}.json`);
+  const data = await res.json();
+
+  if (document.getElementById("title")) {
+    document.getElementById("title").innerText = data.title;
+    document.getElementById("subtitle").innerText = data.subtitle;
+    document.getElementById("content").innerHTML = data.content;
+  }
+
+  if (document.getElementById("faq_title")) {
+    document.getElementById("faq_title").innerText = data.faq_title;
+    document.getElementById("faq_content").innerHTML = data.faq;
+  }
+
+  if (document.getElementById("termo_title")) {
+    document.getElementById("termo_title").innerText = data.termo_title;
+    document.getElementById("termo_content").innerHTML = data.termo;
+  }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const selector = document.getElementById("languageSelector");
+  if (selector) {
+    selector.value = currentLang;
+    selector.addEventListener("change", e => {
+      currentLang = e.target.value;
+      loadLanguage(currentLang);
+    });
+  }
+  loadLanguage(currentLang);
+});
