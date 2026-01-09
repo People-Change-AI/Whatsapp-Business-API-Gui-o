@@ -13,7 +13,7 @@ async function loadLanguage(lang) {
   if (document.getElementById("title")) {
     document.getElementById("title").innerText = data.title;
     document.getElementById("subtitle").innerText = data.subtitle;
-    document.getElementById("content").innerHTML = data.content;
+    document.getElementById("container").innerHTML = data.content;
   }
 
   if (document.getElementById("faq_title")) {
