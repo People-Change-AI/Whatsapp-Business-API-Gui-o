@@ -1,36 +1,61 @@
 {
-  "title": "Guia Universal de Integração",
-  "subtitle": "WhatsApp Business API – Guia completo e prático passo a passo",
+  "title": "Guia Completo – WhatsApp Business API",
+  "subtitle": "Manual prático passo a passo para empresas, sem necessidade de conhecimentos técnicos",
 
-  "content": "
-  <h2>Objectivo do Guia</h2>
-  <p>Este guia orienta empresas em Angola no processo correcto de integração com a WhatsApp Business API oficial da Meta.</p>
+  "steps": [
+    {
+      "title": "1. O que é a WhatsApp Business API",
+      "text": "A WhatsApp Business API é a plataforma oficial do WhatsApp voltada para empresas que precisam integrar atendimento, sistemas ou automações. Não funciona como uma aplicação comum.",
+      "image": "assets/images/step1.png"
+    },
+    {
+      "title": "2. O que é necessário para começar",
+      "text": "A empresa deve estar formalmente registada, possuir um email empresarial activo e um número de telefone exclusivo que nunca tenha sido utilizado no WhatsApp.",
+      "image": "assets/images/step2.png"
+    },
+    {
+      "title": "3. Criar ou aceder ao Meta Business Manager",
+      "text": "Entre em business.facebook.com e crie uma conta empresarial ou utilize uma já existente para gerir os activos da empresa.",
+      "image": "assets/images/step3.png"
+    },
+    {
+      "title": "4. Verificação da empresa",
+      "text": "A Meta solicita documentos oficiais para validar a empresa. Sem esta etapa concluída, a utilização da API pode ser restringida.",
+      "image": "assets/images/placeholder.png"
+    },
+    {
+      "title": "5. Criação da aplicação e activação do WhatsApp",
+      "text": "No portal Meta Developers, crie uma aplicação empresarial e adicione o produto WhatsApp à aplicação.",
+      "image": "assets/images/placeholder.png"
+    },
+    {
+      "title": "6. Criação e aprovação de mensagens",
+      "text": "As mensagens de modelo (templates) são obrigatórias para iniciar conversas. Todas devem ser analisadas e aprovadas pela Meta.",
+      "image": "assets/images/placeholder.png"
+    },
+    {
+      "title": "7. Entrega das informações técnicas",
+      "text": "Após a configuração, devem ser entregues ao programador o Token, Phone Number ID, WhatsApp Business Account ID e os templates aprovados.",
+      "image": "assets/images/placeholder.png"
+    }
+  ],
 
-  <h2>O que é a WhatsApp Business API</h2>
-  <p>É a solução oficial da Meta para integrar sistemas empresariais ao WhatsApp.</p>
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "q": "Posso usar um número pessoal?",
+        "a": "Não. O número precisa estar completamente livre e sem qualquer conta WhatsApp associada."
+      },
+      {
+        "q": "A utilização da API tem custo?",
+        "a": "Sim. A Meta cobra por conversas iniciadas, conforme o tipo de interação."
+      }
+    ]
+  },
 
-  <h2>Pré-requisitos</h2>
-  <ul>
-    <li>Empresa registada</li>
-    <li>Documentos válidos</li>
-    <li>Email corporativo</li>
-    <li>Número exclusivo para API</li>
-  </ul>
-
-  <h2>Interação</h2>
-  <p>Uma interação corresponde a uma pergunta do utilizador e uma resposta do sistema.</p>
-  ",
-
-  "faq_title": "Perguntas Frequentes",
-
-  "faq": "
-  <p><strong>Posso usar WhatsApp normal?</strong><br>Não.</p>
-  <p><strong>É pago?</strong><br>Sim.</p>
-  ",
-
-  "termo_title": "Termo de Responsabilidade",
-
-  "termo": "
-  <p>O cliente assume total responsabilidade pelo uso da WhatsApp Business API.</p>
-  "
+  "terms": {
+    "title": "Termo de Responsabilidade",
+    "text": "O cliente é responsável pelo uso correcto da WhatsApp Business API, pelo cumprimento das políticas da Meta e pelo consentimento dos utilizadores."
+  }
 }

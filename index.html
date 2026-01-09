@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-<html lang="auto">
+<html lang="pt">
 <head>
   <meta charset="UTF-8" />
-  <title>Guia Universal – WhatsApp Business API</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Guia WhatsApp Business API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+
 <header>
   <h1 id="title"></h1>
   <p id="subtitle"></p>
-
-  <select id="languageSelector">
-    <option value="pt-br">🇧🇷 Português (BR)</option>
-    <option value="pt-pt">🇵🇹 Português (PT)</option>
-    <option value="pt-ao">🇦🇴 Português (AO)</option>
-    <option value="en">🇺🇸 English</option>
-  </select>
+  <button onclick="generatePDF()">📄 Exportar PDF</button>
 </header>
 
 <main id="content"></main>
 
-<div class="actions">
-  <button onclick="generatePDF()">📄 Baixar PDF</button>
-  <a href="faq.html">FAQ</a>
-  <a href="termo.html">Termo de Responsabilidade</a>
-</div>
+<section id="faq">
+  <h2 id="faqTitle"></h2>
+  <div id="faqContent"></div>
+</section>
 
-<script src="script.js"></script>
-<script src="pdf.js"></script>
+<section id="terms">
+  <h2 id="termsTitle"></h2>
+  <p id="termsContent"></p>
+</section>
+
+<footer>
+  <p>Guia institucional reutilizável – WhatsApp Business API</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+<script src="js/pdf.js"></script>
 </body>
 </html>

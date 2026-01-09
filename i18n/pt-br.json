@@ -1,42 +1,61 @@
 {
-  "title": "Guia Universal de Integração",
-  "subtitle": "WhatsApp Business API – Guia completo passo a passo",
-  "content": "
-  <h2>Objetivo</h2>
-  <p>Este guia orienta qualquer empresa, mesmo sem conhecimento técnico, a integrar corretamente a WhatsApp Business API.</p>
+  "title": "Guia Completo – WhatsApp Business API",
+  "subtitle": "Passo a passo para empresas, sem conhecimento técnico",
 
-  <h2>Etapas Obrigatórias</h2>
-  <ol>
-    <li>Criar ou acessar um Meta Business Manager</li>
-    <li>Verificar a empresa</li>
-    <li>Criar um App no Meta Developers</li>
-    <li>Adicionar o produto WhatsApp</li>
-    <li>Registrar um número exclusivo</li>
-    <li>Criar e aprovar templates</li>
-    <li>Gerar tokens e IDs</li>
-  </ol>
+  "steps": [
+    {
+      "title": "1. O que é a WhatsApp Business API",
+      "text": "A WhatsApp Business API é a versão oficial do WhatsApp para empresas que usam sistemas, automações e bots. Não é um aplicativo.",
+      "image": "assets/images/step1.png"
+    },
+    {
+      "title": "2. O que você precisa antes de começar",
+      "text": "Empresa registrada, email corporativo e um número exclusivo que não esteja em uso no WhatsApp.",
+      "image": "assets/images/step2.png"
+    },
+    {
+      "title": "3. Criar ou acessar o Meta Business Manager",
+      "text": "Acesse business.facebook.com, crie ou utilize uma conta empresarial.",
+      "image": "assets/images/step3.png"
+    },
+    {
+      "title": "4. Verificar a empresa",
+      "text": "Envie documentos oficiais. Sem verificação a API pode ser bloqueada.",
+      "image": "assets/images/placeholder.png"
+    },
+    {
+      "title": "5. Criar App e adicionar WhatsApp",
+      "text": "No Meta Developers crie uma App Business e adicione o produto WhatsApp.",
+      "image": "assets/images/placeholder.png"
+    },
+    {
+      "title": "6. Criar templates de mensagem",
+      "text": "Templates são obrigatórios para iniciar conversas. Devem ser aprovados pela Meta.",
+      "image": "assets/images/placeholder.png"
+    },
+    {
+      "title": "7. Gerar token e dados finais",
+      "text": "Entregue ao desenvolvedor o Token, Phone Number ID, WABA ID e templates.",
+      "image": "assets/images/placeholder.png"
+    }
+  ],
 
-  <h2>O que é uma interação?</h2>
-  <p>1 interação = 1 pergunta do usuário + 1 resposta do sistema.</p>
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "q": "Posso usar meu WhatsApp pessoal?",
+        "a": "Não. O número precisa estar completamente livre."
+      },
+      {
+        "q": "Isso tem custo?",
+        "a": "Sim. A Meta cobra por interações."
+      }
+    ]
+  },
 
-  <h2>Dados que o cliente deve fornecer</h2>
-  <ul>
-    <li>WhatsApp Business Account ID</li>
-    <li>Phone Number ID</li>
-    <li>Access Token</li>
-    <li>Número aprovado</li>
-    <li>Templates aprovados</li>
-  </ul>
-  ",
-  "faq_title": "Perguntas Frequentes",
-  "faq": "
-  <p><strong>Posso usar meu WhatsApp pessoal?</strong><br>Não.</p>
-  <p><strong>Preciso de templates?</strong><br>Sim, obrigatoriamente.</p>
-  <p><strong>Existe risco de bloqueio?</strong><br>Sim, se violar políticas da Meta.</p>
-  ",
-  "termo_title": "Termo de Responsabilidade",
-  "termo": "
-  <p>O cliente declara estar ciente das regras da Meta, custos por uso e responsabilidades legais.</p>
-  <p>O uso indevido pode resultar em bloqueio permanente da conta.</p>
-  "
+  "terms": {
+    "title": "Termo de Responsabilidade",
+    "text": "O cliente é responsável pelo uso correto da API, cumprimento das políticas da Meta e consentimento dos utilizadores."
+  }
 }
