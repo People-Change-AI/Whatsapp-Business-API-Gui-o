@@ -1,52 +1,47 @@
 {
-  "title": "Guia Completo – WhatsApp Business API",
-  "subtitle": "Passo a passo para empresas, sem necessidade de conhecimento técnico",
+  "title": "Configuração WhatsApp Business API",
+  "subtitle": "Manual de passos para empresas (PT)",
   "steps": [
     {
-      "title": "1. O que é a WhatsApp Business API",
-      "text": "A WhatsApp Business API é a solução oficial para empresas integrarem WhatsApp com sistemas e bots.",
-      "image": "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg"
+      "title": "1. Documentação Necessária",
+      "text": "Prepare o NIF da empresa, comprovativo de morada e um número de telefone dedicado (telemóvel ou fixo) que não esteja registado em nenhum WhatsApp.",
+      "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
-      "title": "2. Requisitos antes de começar",
-      "text": "Assegure que tem uma empresa legal, email corporativo e um telefone dedicado.",
-      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
-    },
-    {
-      "title": "3. Criar ou aceder ao Meta Business Manager",
-      "text": "Vá a business.facebook.com para criar ou aceder à sua conta empresarial.",
+      "title": "2. Meta Business Manager",
+      "text": "Aceda a business.facebook.com. Entre com a sua conta e valide se tem permissões de administrador na conta empresarial da organização.",
       "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
-      "title": "4. Verificação da empresa",
-      "text": "Submeta documentação empresarial; sem verificação a API pode ser bloqueada.",
-      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
-    },
-    {
-      "title": "5. Criar App e adicionar o WhatsApp",
-      "text": "No developers.facebook.com crie uma app Business e ative o WhatsApp.",
+      "title": "3. Criar App de Desenvolvedor",
+      "text": "No site developers.facebook.com, selecione 'As Minhas Aplicações' > 'Criar Aplicação'. Escolha o modelo 'Business' para desbloquear a API do WhatsApp.",
       "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
-      "title": "6. Criar templates de mensagem",
-      "text": "Templates são necessários para iniciar conversas com clientes. Devem ser aprovados.",
-      "image": "https://images.pexels.com/photos/3183166/pexels-photo-3183166.jpeg"
+      "title": "4. Ativação do WhatsApp",
+      "text": "No menu lateral da aplicação, procure por WhatsApp e clique em 'Configurar'. Vincule a conta à sua estrutura empresarial da Meta.",
+      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
-      "title": "7. Entregar informações ao integrador",
-      "text": "Forneça Token, IDs e templates aprovados ao programador responsável.",
+      "title": "5. Verificar Telemóvel",
+      "text": "Em 'Definições da API', adicione o seu número. Irá receber um código de validação via SMS ou chamada telefónica para concluir o registo.",
+      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
+    },
+    {
+      "title": "6. Envio de Credenciais",
+      "text": "Envie-me o 'Phone Number ID', o 'WhatsApp Business Account ID' e o Token de acesso gerado para que eu possa concluir a ligação técnica.",
       "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
   "faq": {
     "title": "Perguntas Frequentes",
     "items": [
-      { "q": "Posso usar um número pessoal?", "a": "Não. É obrigatório um número dedicado." },
-      { "q": "Há custos envolvidos?", "a": "A Meta cobra por conversação, conforme o caso." }
+      { "q": "O número fixo funciona?", "a": "Sim, desde que possa receber chamadas de voz para o código de verificação." },
+      { "q": "A conta precisa de verificação?", "a": "Sim, para aceder a todas as funcionalidades, a Meta exige a verificação dos documentos da empresa." }
     ]
   },
   "terms": {
-    "title": "Termo de Responsabilidade",
-    "text": "O cliente assume responsabilidade por cumprir as políticas da Meta e pelo uso adequado da API."
+    "title": "Responsabilidade",
+    "text": "O uso da API deve respeitar as políticas da Meta. O cliente declara estar ciente dos custos por conversação aplicados pela plataforma."
   }
 }

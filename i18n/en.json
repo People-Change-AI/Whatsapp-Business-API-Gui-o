@@ -1,65 +1,47 @@
 {
-  "title": "Complete Guide – WhatsApp Business API",
-  "subtitle": "Step-by-step guide for companies, no technical knowledge required",
-
+  "title": "WhatsApp Business API Setup",
+  "subtitle": "Step-by-step integration guide for businesses",
   "steps": [
     {
-      "title": "1. What is the WhatsApp Business API",
-      "text": "The WhatsApp Business API is the official WhatsApp solution designed for companies that need to integrate WhatsApp with systems, platforms, or automated services. It is not a mobile application and cannot be used like WhatsApp or WhatsApp Business App.",
-      "image": "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg"
+      "title": "1. Pre-requisites",
+      "text": "Gather your legal business documents, business email, and a dedicated phone number that is NOT currently linked to any WhatsApp account.",
+      "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
-      "title": "2. What you need before starting",
-      "text": "Your company must be legally registered, have a valid business email address, and own a phone number that has never been used with WhatsApp. This number must be dedicated exclusively to the WhatsApp Business API.",
-      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
-    },
-    {
-      "title": "3. Access or create a Meta Business Manager account",
-      "text": "Go to business.facebook.com and create a Meta Business Manager account or use an existing one. This account will be used to manage your company assets, including WhatsApp.",
+      "title": "2. Meta Business Manager",
+      "text": "Go to business.facebook.com. Ensure you have admin access to the Business Account. This is where Meta verifies your organization's identity.",
       "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
-      "title": "4. Business verification",
-      "text": "Meta requires business verification using official company documents. Without completing this step, access to the WhatsApp Business API may be restricted or blocked.",
-      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
-    },
-    {
-      "title": "5. Create a Meta app and enable WhatsApp",
-      "text": "Access developers.facebook.com, create a Business-type app, and add the WhatsApp product. This step connects your company to the WhatsApp Business API.",
+      "title": "3. Create a Developer App",
+      "text": "Access developers.facebook.com > 'My Apps' > 'Create App'. Select 'Business' as the app type to enable the WhatsApp API tools.",
       "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
-      "title": "6. Create and approve message templates",
-      "text": "Message templates are mandatory to initiate conversations with customers. All templates must be submitted to Meta and approved before they can be used.",
-      "image": "https://images.pexels.com/photos/3183166/pexels-photo-3183166.jpeg"
+      "title": "4. Enable WhatsApp Product",
+      "text": "In your App Dashboard, find 'WhatsApp' and click 'Set Up'. Connect it to your verified Meta Business Account.",
+      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
-      "title": "7. Deliver technical information to the integrator",
-      "text": "After configuration, you must provide the developer or integration partner with the Access Token, Phone Number ID, WhatsApp Business Account ID, and the list of approved templates.",
+      "title": "5. Phone Number Verification",
+      "text": "Under 'API Setup', click 'Add Phone Number'. Enter the details and choose to receive the verification code via SMS or Voice Call.",
+      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
+    },
+    {
+      "title": "6. Handover to Integrator",
+      "text": "Copy and send me the: 1. Phone Number ID, 2. WhatsApp Business Account ID, and 3. Permanent Access Token.",
       "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
-
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Common Questions",
     "items": [
-      {
-        "q": "Can I use my personal WhatsApp number?",
-        "a": "No. The phone number must be completely free and not associated with any WhatsApp account."
-      },
-      {
-        "q": "Does the WhatsApp Business API have costs?",
-        "a": "Yes. Meta charges per conversation, depending on the type of interaction."
-      },
-      {
-        "q": "Can I send messages freely?",
-        "a": "Only within the 24-hour customer service window. Outside this window, approved templates must be used."
-      }
+      { "q": "Can I use a landline?", "a": "Yes, as long as it can receive a voice call for the verification code." },
+      { "q": "Are there costs?", "a": "Yes. Meta charges per conversation. The first 1,000 service conversations per month are usually free." }
     ]
   },
-
   "terms": {
-    "title": "Client Responsibility Terms",
-    "text": "The client is fully responsible for complying with Meta policies, obtaining user consent for communications, managing message content, and ensuring proper use of the WhatsApp Business API."
+    "title": "Terms of Service",
+    "text": "The client is responsible for message content and compliance with Meta's Commerce Policies. SPAM behavior leads to number banning."
   }
 }

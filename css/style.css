@@ -1,61 +1,70 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  background: #fafafa;
-  color: #222;
+  background: #f0f2f5;
+  color: #1c1e21;
+  line-height: 1.6;
 }
 
 header {
   background: #0b5cff;
   color: white;
-  padding: 15px;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .top-bar {
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-select, button {
-  padding: 8px 12px;
-  font-size: 14px;
-  margin-left: 10px;
-}
+h1 { margin: 0; font-size: 1.5rem; }
 
 main {
-  max-width: 900px;
+  max-width: 800px;
   margin: 20px auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .step {
   background: white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-  padding: 15px;
-  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 5px solid #0b5cff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
+/* Padronização das Imagens */
 .step img {
   width: 100%;
-  border-radius: 6px;
-  margin-top: 10px;
+  max-width: 400px; /* Tamanho reduzido e controlado */
+  height: 250px;
+  object-fit: cover; /* Mantém a proporção sem distorcer */
+  border-radius: 8px;
+  display: block;
+  margin: 15px auto;
+  border: 1px solid #ddd;
 }
+
+.step h2 { color: #0b5cff; margin-top: 0; }
 
 footer {
   text-align: center;
-  padding: 15px;
-  background: #eee;
-  margin-top: 30px;
+  padding: 20px;
+  background: #ddd;
+  margin-top: 40px;
 }
 
-a {
-  color: #0b5cff;
-  text-decoration: none;
+@media (max-width: 600px) {
+  .top-bar { justify-content: center; text-align: center; }
+  h1 { font-size: 1.2rem; width: 100%; }
 }

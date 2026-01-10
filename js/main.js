@@ -1,4 +1,4 @@
-const lang = getCurrentLang();
+const lang = localStorage.getItem("lang") || getCurrentLang(); 
 
 fetch(`i18n/${lang}.json`)
   .then(res => res.json())
