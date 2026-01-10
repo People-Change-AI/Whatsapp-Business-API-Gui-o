@@ -10,18 +10,31 @@ function detectBrowserLang() {
 function populateLangSelector(id) {
   const sel = document.getElementById(id);
   if (!sel) return;
-  sel.innerHTML = `
-    <option value="pt-br">🇧🇷 Português (BR)</option>
-    <option value="pt-pt">🇵🇹 Português (PT)</option>
-    <option value="pt-ao">🇦🇴 Português (AO)</option>
-    <option value="en">🇺🇸 English</option>
-  `;
+
+  sel.innerHTML = "";
+
+  const options = [
+    { value: "pt-br", label: "🇧🇷 Português (BR)" },
+    { value: "pt-pt", label: "🇵🇹 Português (PT)" },
+    { value: "pt-ao", label: "🇦🇴 Português (AO)" },
+    { value: "en", label: "🇺🇸 English" }
+  ];
+
+  options.forEach(opt => {
+    const o = document.createElement("option");
+    o.value = opt.value;
+    o.textContent = opt.label;
+    sel.appendChild(o);
+  });
+
   sel.value = detectBrowserLang();
-  sel.onchange = () => { 
+
+  sel.onchange = () => {
     localStorage.setItem("lang", sel.value);
     location.reload();
   };
 }
+
 
 function getCurrentLang() {
   return localStorage.getItem("lang") || detectBrowserLang();
