@@ -1,47 +1,43 @@
 {
   "title": "WhatsApp Business API Setup",
-  "subtitle": "Follow these steps exactly to activate your account",
+  "subtitle": "Professional step-by-step integration guide",
   "steps": [
     {
-      "title": "1. What you NEED now",
-      "text": "Do not proceed without these: <br>• <b>Tax ID and Legal Company Name</b>.<br>• <b>Phone Number:</b> Must be active to receive SMS/Call, but <b>CANNOT</b> have an active WhatsApp account. If it does, delete it in Settings > Account > Delete my account.<br>• <b>Credit Card:</b> To register your Meta payment method.",
-      "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
+      "title": "1. Mandatory Requirements",
+      "text": "Before starting: <br>• Active <b>Tax ID</b>.<br>• <b>Phone Number:</b> Must not have a WhatsApp account. Delete it in Settings > Account if necessary.<br>• <b>Credit Card:</b> For Meta's billing platform.",
+      "image": "img/step1.png"
     },
     {
-      "title": "2. Access Meta Business Manager",
-      "text": "1. Go to <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com/overview</a>.<br>2. Log in or click <b>'Create account'</b>.<br>3. Use your real business name and corporate email.",
-      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+      "title": "2. Meta Business Manager",
+      "text": "1. Visit <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a>.<br>2. Click <b>'Create account'</b> or log in.<br>3. Use official business details and email.",
+      "image": "img/step2.png"
     },
     {
-      "title": "3. Create your Integration App",
-      "text": "1. Access the <a href='https://developers.facebook.com/apps/' target='_blank'>Meta App Dashboard</a>.<br>2. Click the green <b>'Create App'</b> button.<br>3. Choose <b>'Business'</b> and proceed.<br>4. Set your company name as the 'Display name'.",
-      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+      "title": "3. Developer App",
+      "text": "1. Access <a href='https://developers.facebook.com/apps/' target='_blank'>developers.facebook.com</a>.<br>2. Click <b>'Create App'</b>.<br>3. Choose <b>'Business'</b> type.<br>4. Enter your company name as the display name.",
+      "image": "img/step3.png"
     },
     {
-      "title": "4. Add WhatsApp to your App",
-      "text": "1. In your app dashboard, scroll down to <b>'WhatsApp'</b>.<br>2. Click <b>'Set up'</b>.<br>3. Select your Business Account (from step 2) and click continue.",
-      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
+      "title": "4. WhatsApp Configuration",
+      "text": "1. In the app dashboard, click <b>'Set Up'</b> on the WhatsApp product.<br>2. Link it to your Business Account from step 2.<br>3. Go to 'API Setup' in the sidebar.",
+      "image": "img/step4.png"
     },
     {
-      "title": "5. Register and Verify Number",
-      "text": "1. In the sidebar, click <b>WhatsApp > API Setup</b>.<br>2. Scroll to 'Step 5' and click <b>'Add phone number'</b>.<br>3. Fill in the profile and category.<br>4. Choose <b>'Text message (SMS)'</b> to validate.<br>5. Enter the code you received.",
-      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
+      "title": "5. Verify Phone Number",
+      "text": "1. In 'API Setup', click <b>'Add phone number'</b>.<br>2. Choose <b>SMS</b> verification.<br>3. Enter the 6-digit code sent to your phone.",
+      "image": "img/step5.png"
     },
     {
-      "title": "6. DATA TO SEND ME (Final Step)",
-      "text": "On the same 'API Setup' screen, copy these 3 items and send them to me:<br>• <b>Phone Number ID</b><br>• <b>WhatsApp Business Account ID</b><br>• <b>Temporary Access Token</b> (found at the top).",
-      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
+      "title": "6. Permanent Access Token",
+      "text": "<b>CRITICAL:</b> Temporary tokens expire in 24h. For a permanent connection:<br>1. Go to <b>Business Settings > System Users</b>.<br>2. Add a user named 'Integrator' as <b>Admin</b>.<br>3. Click <b>Generate New Token</b>, select your App, and check <b>whatsapp_business_messaging</b>.<br>4. Send this token to me.",
+      "image": "img/step6.png"
     }
   ],
-  "faq": {
-    "title": "Frequently Asked Questions",
+  "templates_guide": {
+    "title": "Message Templates",
+    "text": "Go to the <a href='https://business.facebook.com/wa/manage/message-templates/' target='_blank'>Template Manager</a> and create these models:",
     "items": [
-      { "q": "Can I use a landline?", "a": "Yes, as long as it can receive voice calls for the verification code." },
-      { "q": "How long does it take?", "a": "Technical setup is instant. Meta's official verification takes 24h to 48h." }
+      { "name": "welcome_message", "content": "Hello {{1}}! Welcome to {{2}}. How can we help you?" }
     ]
-  },
-  "terms": {
-    "title": "Terms and Conditions",
-    "text": "You agree not to send SPAM. Meta may ban numbers that receive multiple user reports."
   }
 }

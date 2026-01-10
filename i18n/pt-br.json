@@ -1,47 +1,44 @@
 {
   "title": "Configuração WhatsApp Business API",
-  "subtitle": "Siga exatamente estes passos para ativar sua conta",
+  "subtitle": "Guia técnico passo a passo para empresas",
   "steps": [
     {
-      "title": "1. O que você PRECISA ter agora",
-      "text": "Não avance sem estes itens: <br>• <b>CNPJ e Razão Social</b> da empresa.<br>• <b>Número de Telefone:</b> Deve estar ativo para receber SMS ou ligação, mas <b>NÃO pode</b> ter uma conta de WhatsApp ativa. Se tiver, apague a conta em Configurações > Conta > Apagar minha conta.<br>• <b>Cartão de Crédito:</b> Para cadastrar a forma de pagamento da Meta.",
-      "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
+      "title": "1. Requisitos Obrigatórios",
+      "text": "Antes de começar, valide estes itens: <br>• <b>CNPJ e Razão Social</b> ativos.<br>• <b>Número de Telefone:</b> Não pode ter WhatsApp ativo. Se tiver, apague a conta em Configurações > Conta > Apagar conta.<br>• <b>Cartão de Crédito:</b> Necessário para o faturamento da Meta.",
+      "image": "img/step1.png"
     },
     {
-      "title": "2. Acesse o Gerenciador de Negócios",
-      "text": "1. Entre em <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com/overview</a>.<br>2. Se já tiver conta, faça login. Se não, clique em <b>'Criar conta'</b>.<br>3. Use o nome real da sua empresa e o seu e-mail corporativo.",
-      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+      "title": "2. Gerenciador de Negócios",
+      "text": "1. Acesse o <a href='https://business.facebook.com/overview' target='_blank'>Meta Business Manager</a>.<br>2. Se não tiver conta, clique em <b>'Criar conta'</b>.<br>3. Use os dados reais da empresa e seu e-mail corporativo.",
+      "image": "img/step2.png"
     },
     {
-      "title": "3. Crie o Aplicativo de Integração",
-      "text": "1. Acesse o <a href='https://developers.facebook.com/apps/' target='_blank'>Painel de Aplicativos da Meta</a>.<br>2. Clique no botão verde <b>'Criar aplicativo'</b>.<br>3. Escolha a opção <b>'Negócios' (Business)</b> e avance.<br>4. No campo 'Nome de exibição', coloque o nome da sua empresa.",
-      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+      "title": "3. Aplicativo de Integração",
+      "text": "1. Entre em <a href='https://developers.facebook.com/apps/' target='_blank'>developers.facebook.com</a>.<br>2. Clique em <b>'Criar aplicativo'</b>.<br>3. Escolha <b>'Negócios' (Business)</b>.<br>4. Nomeie o app com o nome da sua empresa.",
+      "image": "img/step3.png"
     },
     {
-      "title": "4. Adicione o WhatsApp ao Aplicativo",
-      "text": "1. No painel do app que você acabou de criar, role para baixo até encontrar <b>'WhatsApp'</b>.<br>2. Clique em <b>'Configurar'</b>.<br>3. Selecione a sua conta empresarial (criada no passo 2) e clique em continuar.",
-      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
+      "title": "4. Configurar WhatsApp",
+      "text": "1. No painel do seu app, clique em <b>'Configurar'</b> no produto WhatsApp.<br>2. Vincule o app à conta empresarial criada no passo 2.<br>3. Siga para 'Configuração da API' no menu lateral.",
+      "image": "img/step4.png"
     },
     {
-      "title": "5. Cadastre e Verifique seu Número",
-      "text": "1. No menu lateral, clique em <b>WhatsApp > Configuração da API</b>.<br>2. Role até 'Etapa 5' e clique em <b>'Adicionar número de telefone'</b>.<br>3. Preencha o nome do perfil e categoria.<br>4. Digite seu número e escolha <b>'Mensagem de texto (SMS)'</b> para validar.<br>5. Insira o código que você recebeu.",
-      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
+      "title": "5. Validar seu Número",
+      "text": "1. Em 'Configuração da API', role até a Etapa 5 e clique em <b>'Adicionar número'</b>.<br>2. Insira o nome de exibição e o número.<br>3. Escolha validar via <b>SMS</b> e insira o código recebido.",
+      "image": "img/step5.png"
     },
     {
-      "title": "6. O QUE ME ENVIAR (Finalização)",
-      "text": "Agora, na mesma tela de 'Configuração da API', copie estes 3 dados e me envie pelo WhatsApp/E-mail:<br>• <b>Identificador do número de telefone (Phone Number ID)</b><br>• <b>Identificador da conta do WhatsApp Business</b><br>• <b>Token de acesso temporário</b> (que aparece no topo da página).",
-      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
+      "title": "6. Gerar Token Permanente",
+      "text": "<b>MUITO IMPORTANTE:</b> O token da tela anterior expira em 24h. Para o sistema não parar:<br>1. Vá em <b>Ajustes do Negócio > Usuários do Sistema</b>.<br>2. Adicione um usuário chamado 'Integrador' como <b>Admin</b>.<br>3. Clique em <b>Gerar Novo Token</b>, selecione seu App e marque a permissão <b>whatsapp_business_messaging</b>.<br>4. Copie este token e envie para mim.",
+      "image": "img/step6.png"
     }
   ],
-  "faq": {
-    "title": "Dúvidas Frequentes",
+  "templates_guide": {
+    "title": "Criação de Templates (Modelos)",
+    "text": "Acesse o <a href='https://business.facebook.com/wa/manage/message-templates/' target='_blank'>Gerenciador de Modelos</a> e crie estes modelos exatamente como abaixo:",
     "items": [
-      { "q": "Meu número sumiu do celular, é normal?", "a": "Sim! Ao ativar a API, o número sai do seu aplicativo comum e passa a funcionar apenas no nosso sistema profissional." },
-      { "q": "Quanto tempo demora?", "a": "A parte técnica é imediata. A verificação oficial da Meta pode levar de 24h a 48h." }
+      { "name": "boas_vindas", "content": "Olá {{1}}! Seja bem-vindo à {{2}}. Como podemos ajudar?" },
+      { "name": "atendimento_humano", "content": "Aguarde um momento, {{1}}. Um atendente falará com você em breve." }
     ]
-  },
-  "terms": {
-    "title": "Termos Importantes",
-    "text": "Ao ativar a API, você concorda em não enviar SPAM. A Meta pode banir números que recebam muitas denúncias de usuários."
   }
 }
