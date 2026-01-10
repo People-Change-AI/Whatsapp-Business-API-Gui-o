@@ -68,3 +68,26 @@ footer {
   .top-bar { justify-content: center; text-align: center; }
   h1 { font-size: 1.2rem; width: 100%; }
 }
+
+/* Estilo para os links dentro dos passos */
+.step-description a {
+  display: inline-block;
+  background: #0b5cff;
+  color: white !important;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.step-description a:hover {
+  background: #0044cc;
+}
+
+/* Deixa o texto em negrito e com quebras de linha corretas */
+.step-description {
+  white-space: pre-line; /* Respeita as quebras de linha do JSON */
+  font-size: 15px;
+  color: #444;
+}

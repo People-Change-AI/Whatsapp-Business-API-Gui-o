@@ -1,47 +1,47 @@
 {
-  "title": "Guia de Configuração WhatsApp API",
-  "subtitle": "Passo a passo para empresas em Angola",
+  "title": "Configuração WhatsApp Business API",
+  "subtitle": "Guia de ativação passo a passo para empresas",
   "steps": [
     {
-      "title": "1. O que precisa preparar",
-      "text": "Tenha em mãos o NIF da empresa e um número de telefone exclusivo que não esteja a ser usado em nenhum aplicativo WhatsApp.",
+      "title": "1. Requisitos Obrigatórios",
+      "text": "Tenha em mãos: <br>• <b>NIF da Empresa</b>.<br>• <b>Número de Telefone:</b> Deve estar apto para receber SMS, mas <b>NÃO pode</b> estar a ser usado em nenhum WhatsApp. Se estiver, elimine a conta nas Definições do aplicativo.<br>• <b>Cartão de Crédito/Débito:</b> Para pagamentos à Meta.",
       "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
-      "title": "2. Conta Meta Business",
-      "text": "Entre em business.facebook.com e crie ou aceda à conta da empresa. É necessário ser o administrador principal para fazer as configurações.",
+      "title": "2. Aceder ao Meta Business",
+      "text": "1. Vá para <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com/overview</a>.<br>2. Clique em <b>'Criar conta'</b> ou faça login.<br>3. Use os dados oficiais da empresa e um e-mail que use sempre.",
       "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
-      "title": "3. Criar Aplicativo",
-      "text": "Visite developers.facebook.com, clique em 'Criar Aplicação' e escolha o tipo 'Negócios'. Isto permite ligar o sistema ao WhatsApp.",
+      "title": "3. Criar a App de Ligação",
+      "text": "1. Entre no <a href='https://developers.facebook.com/apps/' target='_blank'>Portal de Programadores da Meta</a>.<br>2. Clique em <b>'Criar aplicação'</b>.<br>3. Escolha a categoria <b>'Negócios' (Business)</b>.<br>4. Identifique a aplicação com o nome da sua empresa.",
       "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
-      "title": "4. Adicionar WhatsApp",
-      "text": "No painel da aplicação, selecione 'Configurar' no produto WhatsApp. Siga os passos para associar a sua conta empresarial.",
+      "title": "4. Ativar o WhatsApp na App",
+      "text": "1. No painel, procure o ícone do <b>'WhatsApp'</b> e clique em <b>'Configurar'</b>.<br>2. Escolha a sua conta empresarial da Meta e avance.",
       "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
-      "title": "5. Validar o Terminal",
-      "text": "Adicione o número de telefone no painel da API. Receberá um código por SMS ou voz. Certifique-se que o número tem sinal para receber a chamada.",
+      "title": "5. Validar o Número",
+      "text": "1. Clique em <b>WhatsApp > Configuração da API</b>.<br>2. Role até encontrar <b>'Adicionar número de telefone'</b>.<br>3. Coloque o seu número e valide por <b>SMS ou Voz</b>.<br>4. Introduza o código recebido no sistema.",
       "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
     },
     {
-      "title": "6. Informação para o Técnico",
-      "text": "Copie os IDs gerados (Phone ID e Account ID) e o Token e envie para o responsável pela integração finalizar o processo.",
+      "title": "6. Enviar Dados ao Técnico",
+      "text": "Copie estes dados da tela 'Configuração da API' e envie para mim:<br>• <b>Phone Number ID</b><br>• <b>WhatsApp Business Account ID</b><br>• <b>Token de acesso temporário</b>.",
       "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
   "faq": {
-    "title": "Perguntas e Respostas",
+    "title": "Perguntas Frequentes",
     "items": [
-      { "q": "Posso usar o mesmo número no meu telefone?", "a": "Não. Uma vez na API, o número deixa de funcionar no aplicativo comum do telemóvel." },
-      { "q": "Quanto tempo leva?", "a": "A configuração técnica é rápida, mas a Meta pode levar alguns dias para validar os documentos da empresa." }
+      { "q": "Posso usar o número no meu telefone?", "a": "Não. O número passará a funcionar apenas no sistema de atendimento via API." },
+      { "q": "O serviço é grátis?", "a": "A Meta oferece uma cota gratuita mensal, mas cobra por conversas que excedam esse limite." }
     ]
   },
   "terms": {
-    "title": "Termos e Condições",
-    "text": "O cliente deve garantir que tem permissão para enviar mensagens aos destinatários, evitando bloqueios por denúncia de SPAM."
+    "title": "Termos de Uso",
+    "text": "O cliente declara que as mensagens enviadas respeitam as leis locais e as políticas de privacidade da Meta."
   }
 }

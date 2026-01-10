@@ -1,47 +1,47 @@
 {
   "title": "Configuração WhatsApp Business API",
-  "subtitle": "Guia de integração para empresas",
+  "subtitle": "Siga exatamente estes passos para ativar sua conta",
   "steps": [
     {
-      "title": "1. O que você precisa ter em mãos",
-      "text": "Antes de começar, separe: \n• CNPJ e Contrato Social da empresa.\n• Um número de telefone novo (que NÃO tenha WhatsApp instalado).\n• Acesso administrativo à página do Facebook da empresa.",
+      "title": "1. O que você PRECISA ter agora",
+      "text": "Não avance sem estes itens: <br>• <b>CNPJ e Razão Social</b> da empresa.<br>• <b>Número de Telefone:</b> Deve estar ativo para receber SMS ou ligação, mas <b>NÃO pode</b> ter uma conta de WhatsApp ativa. Se tiver, apague a conta em Configurações > Conta > Apagar minha conta.<br>• <b>Cartão de Crédito:</b> Para cadastrar a forma de pagamento da Meta.",
       "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
-      "title": "2. Acesse o Gerenciador de Negócios (Meta)",
-      "text": "Entre em business.facebook.com. Se não tiver uma conta, clique em 'Criar Conta'. Este é o local onde a Meta valida que sua empresa é real.",
+      "title": "2. Acesse o Gerenciador de Negócios",
+      "text": "1. Entre em <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com/overview</a>.<br>2. Se já tiver conta, faça login. Se não, clique em <b>'Criar conta'</b>.<br>3. Use o nome real da sua empresa e o seu e-mail corporativo.",
       "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
-      "title": "3. Crie o App de Integração",
-      "text": "Vá ao portal developers.facebook.com, clique em 'Meus Aplicativos' > 'Criar Aplicativo'. Selecione o tipo 'Negócios' (Business). Isso gera o canal de comunicação.",
+      "title": "3. Crie o Aplicativo de Integração",
+      "text": "1. Acesse o <a href='https://developers.facebook.com/apps/' target='_blank'>Painel de Aplicativos da Meta</a>.<br>2. Clique no botão verde <b>'Criar aplicativo'</b>.<br>3. Escolha a opção <b>'Negócios' (Business)</b> e avance.<br>4. No campo 'Nome de exibição', coloque o nome da sua empresa.",
       "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
-      "title": "4. Adicione o WhatsApp ao App",
-      "text": "Dentro do painel do seu novo App, role até encontrar 'WhatsApp' e clique em 'Configurar'. Aceite os termos e selecione sua conta empresarial da Meta.",
+      "title": "4. Adicione o WhatsApp ao Aplicativo",
+      "text": "1. No painel do app que você acabou de criar, role para baixo até encontrar <b>'WhatsApp'</b>.<br>2. Clique em <b>'Configurar'</b>.<br>3. Selecione a sua conta empresarial (criada no passo 2) e clique em continuar.",
       "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
-      "title": "5. Cadastro do Número",
-      "text": "Na aba 'Configuração da API', clique em 'Adicionar número de telefone'. Digite o nome de exibição e o número. Você receberá um código via SMS ou voz para validar.",
+      "title": "5. Cadastre e Verifique seu Número",
+      "text": "1. No menu lateral, clique em <b>WhatsApp > Configuração da API</b>.<br>2. Role até 'Etapa 5' e clique em <b>'Adicionar número de telefone'</b>.<br>3. Preencha o nome do perfil e categoria.<br>4. Digite seu número e escolha <b>'Mensagem de texto (SMS)'</b> para validar.<br>5. Insira o código que você recebeu.",
       "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
     },
     {
-      "title": "6. Dados para me enviar (Importante)",
-      "text": "Para eu finalizar a integração, preciso que você copie e me envie:\n1. Identificador do número de telefone (Phone Number ID).\n2. Identificador da conta de WhatsApp Business.\n3. Token de acesso temporário (ou permanente).",
+      "title": "6. O QUE ME ENVIAR (Finalização)",
+      "text": "Agora, na mesma tela de 'Configuração da API', copie estes 3 dados e me envie pelo WhatsApp/E-mail:<br>• <b>Identificador do número de telefone (Phone Number ID)</b><br>• <b>Identificador da conta do WhatsApp Business</b><br>• <b>Token de acesso temporário</b> (que aparece no topo da página).",
       "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
   "faq": {
-    "title": "Perguntas Frequentes",
+    "title": "Dúvidas Frequentes",
     "items": [
-      { "q": "Preciso manter o celular ligado?", "a": "Não. Diferente do WhatsApp Web, a API roda em servidores. O celular pode ficar desligado." },
-      { "q": "Quanto tempo demora a aprovação?", "a": "A aprovação do número é imediata, mas a verificação da empresa pela Meta pode levar de 1 a 5 dias úteis." }
+      { "q": "Meu número sumiu do celular, é normal?", "a": "Sim! Ao ativar a API, o número sai do seu aplicativo comum e passa a funcionar apenas no nosso sistema profissional." },
+      { "q": "Quanto tempo demora?", "a": "A parte técnica é imediata. A verificação oficial da Meta pode levar de 24h a 48h." }
     ]
   },
   "terms": {
-    "title": "Responsabilidade",
-    "text": "O uso da API implica no aceite das políticas comerciais da Meta. O envio de SPAM pode causar o banimento definitivo do número."
+    "title": "Termos Importantes",
+    "text": "Ao ativar a API, você concorda em não enviar SPAM. A Meta pode banir números que recebam muitas denúncias de usuários."
   }
 }

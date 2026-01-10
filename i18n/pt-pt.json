@@ -1,47 +1,47 @@
 {
   "title": "Configuração WhatsApp Business API",
-  "subtitle": "Manual de passos para empresas (PT)",
+  "subtitle": "Siga estes passos para ativar a sua conta profissional",
   "steps": [
     {
-      "title": "1. Documentação Necessária",
-      "text": "Prepare o NIF da empresa, comprovativo de morada e um número de telefone dedicado (telemóvel ou fixo) que não esteja registado em nenhum WhatsApp.",
+      "title": "1. O que PRECISA ter agora",
+      "text": "Não avance sem estes itens: <br>• <b>NIF e Nome Legal</b> da empresa.<br>• <b>Número de Telefone:</b> Deve estar ativo para receber SMS ou chamada, mas <b>NÃO pode</b> ter uma conta WhatsApp ativa. Se tiver, apague a conta em Definições > Conta > Apagar a minha conta.<br>• <b>Cartão de Crédito:</b> Para registar o método de pagamento da Meta.",
       "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
-      "title": "2. Meta Business Manager",
-      "text": "Aceda a business.facebook.com. Entre com a sua conta e valide se tem permissões de administrador na conta empresarial da organização.",
+      "title": "2. Aceda ao Gestor de Negócios",
+      "text": "1. Entre em <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com/overview</a>.<br>2. Se já tiver conta, faça login. Se não, clique em <b>'Criar conta'</b>.<br>3. Use o nome real da empresa e o seu e-mail corporativo.",
       "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
-      "title": "3. Criar App de Desenvolvedor",
-      "text": "No site developers.facebook.com, selecione 'As Minhas Aplicações' > 'Criar Aplicação'. Escolha o modelo 'Business' para desbloquear a API do WhatsApp.",
+      "title": "3. Crie a Aplicação de Integração",
+      "text": "1. Aceda ao <a href='https://developers.facebook.com/apps/' target='_blank'>Painel de Aplicações da Meta</a>.<br>2. Clique no botão verde <b>'Criar aplicação'</b>.<br>3. Escolha a opção <b>'Negócios' (Business)</b>.<br>4. No campo 'Nome de exibição', coloque o nome da sua empresa.",
       "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
-      "title": "4. Ativação do WhatsApp",
-      "text": "No menu lateral da aplicação, procure por WhatsApp e clique em 'Configurar'. Vincule a conta à sua estrutura empresarial da Meta.",
+      "title": "4. Adicione o WhatsApp à Aplicação",
+      "text": "1. No painel da app que criou, procure por <b>'WhatsApp'</b> no fundo da página.<br>2. Clique em <b>'Configurar'</b>.<br>3. Selecione a sua conta empresarial (criada no passo 2) e clique em continuar.",
       "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
-      "title": "5. Verificar Telemóvel",
-      "text": "Em 'Definições da API', adicione o seu número. Irá receber um código de validação via SMS ou chamada telefónica para concluir o registo.",
+      "title": "5. Registe e Verifique o Número",
+      "text": "1. No menu lateral, clique em <b>WhatsApp > Configuração da API</b>.<br>2. Vá até à 'Etapa 5' e clique em <b>'Adicionar número de telefone'</b>.<br>3. Preencha o perfil e categoria.<br>4. Escolha <b>'Mensagem de texto (SMS)'</b> para validar.<br>5. Introduza o código que recebeu.",
       "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
     },
     {
-      "title": "6. Envio de Credenciais",
-      "text": "Envie-me o 'Phone Number ID', o 'WhatsApp Business Account ID' e o Token de acesso gerado para que eu possa concluir a ligação técnica.",
+      "title": "6. O QUE ME ENVIAR (Finalização)",
+      "text": "Na mesma página de 'Configuração da API', copie estes 3 dados e envie-me:<br>• <b>Identificador do número de telefone (Phone Number ID)</b><br>• <b>Identificador da conta do WhatsApp Business</b><br>• <b>Token de acesso temporário</b>.",
       "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
   "faq": {
     "title": "Perguntas Frequentes",
     "items": [
-      { "q": "O número fixo funciona?", "a": "Sim, desde que possa receber chamadas de voz para o código de verificação." },
-      { "q": "A conta precisa de verificação?", "a": "Sim, para aceder a todas as funcionalidades, a Meta exige a verificação dos documentos da empresa." }
+      { "q": "O número fixo funciona?", "a": "Sim, desde que possa receber chamadas de voz para ouvir o código de verificação." },
+      { "q": "Quanto tempo demora?", "a": "A configuração técnica é instantânea. A verificação da Meta demora entre 24h a 48h." }
     ]
   },
   "terms": {
-    "title": "Responsabilidade",
-    "text": "O uso da API deve respeitar as políticas da Meta. O cliente declara estar ciente dos custos por conversação aplicados pela plataforma."
+    "title": "Termos de Responsabilidade",
+    "text": "O cliente é responsável pelo conteúdo enviado. O envio de mensagens não autorizadas (SPAM) pode levar ao bloqueio do número pela Meta."
   }
 }

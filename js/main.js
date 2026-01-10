@@ -1,16 +1,16 @@
-const lang = localStorage.getItem("lang") || getCurrentLang(); 
+const lang = getCurrentLang();
 
 fetch(`i18n/${lang}.json`)
-  .then(res => res.json())
-  .then(data => {
+  .then((res) => res.json())
+  .then((data) => {
     // --- PÁGINA INICIAL (index.html) ---
     const title = document.getElementById("title");
     if (title) title.innerText = data.title;
 
     const content = document.getElementById("content");
     if (content && data.steps) {
-      content.innerHTML = ''; 
-      data.steps.forEach(step => {
+      content.innerHTML = "";
+      data.steps.forEach((step) => {
         const div = document.createElement("div");
         div.className = "step";
         div.innerHTML = `
@@ -28,8 +28,8 @@ fetch(`i18n/${lang}.json`)
 
     const faqContent = document.getElementById("faqContent");
     if (faqContent && data.faq?.items) {
-      faqContent.innerHTML = '';
-      data.faq.items.forEach(i => {
+      faqContent.innerHTML = "";
+      data.faq.items.forEach((i) => {
         const p = document.createElement("p");
         p.innerHTML = `<strong>${i.q}</strong><br>${i.a}`;
         faqContent.appendChild(p);
@@ -45,10 +45,12 @@ fetch(`i18n/${lang}.json`)
       termsContent.innerHTML = `<p>${data.terms.text}</p>`;
     }
   })
-  .catch(err => {
+  .catch((err) => {
     console.error("Erro ao carregar tradução:", err);
     const main = document.querySelector("main");
-    if (main) main.innerHTML = "<p>Erro ao carregar conteúdo. Verifique sua conexão.</p>";
+    if (main)
+      main.innerHTML =
+        "<p>Erro ao carregar conteúdo. Verifique sua conexão.</p>";
   });
 
 // Inicializa o seletor de idiomas se ele existir na página

@@ -1,47 +1,47 @@
 {
   "title": "WhatsApp Business API Setup",
-  "subtitle": "Step-by-step integration guide for businesses",
+  "subtitle": "Follow these steps exactly to activate your account",
   "steps": [
     {
-      "title": "1. Pre-requisites",
-      "text": "Gather your legal business documents, business email, and a dedicated phone number that is NOT currently linked to any WhatsApp account.",
+      "title": "1. What you NEED now",
+      "text": "Do not proceed without these: <br>• <b>Tax ID and Legal Company Name</b>.<br>• <b>Phone Number:</b> Must be active to receive SMS/Call, but <b>CANNOT</b> have an active WhatsApp account. If it does, delete it in Settings > Account > Delete my account.<br>• <b>Credit Card:</b> To register your Meta payment method.",
       "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
-      "title": "2. Meta Business Manager",
-      "text": "Go to business.facebook.com. Ensure you have admin access to the Business Account. This is where Meta verifies your organization's identity.",
+      "title": "2. Access Meta Business Manager",
+      "text": "1. Go to <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com/overview</a>.<br>2. Log in or click <b>'Create account'</b>.<br>3. Use your real business name and corporate email.",
       "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
-      "title": "3. Create a Developer App",
-      "text": "Access developers.facebook.com > 'My Apps' > 'Create App'. Select 'Business' as the app type to enable the WhatsApp API tools.",
+      "title": "3. Create your Integration App",
+      "text": "1. Access the <a href='https://developers.facebook.com/apps/' target='_blank'>Meta App Dashboard</a>.<br>2. Click the green <b>'Create App'</b> button.<br>3. Choose <b>'Business'</b> and proceed.<br>4. Set your company name as the 'Display name'.",
       "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
-      "title": "4. Enable WhatsApp Product",
-      "text": "In your App Dashboard, find 'WhatsApp' and click 'Set Up'. Connect it to your verified Meta Business Account.",
+      "title": "4. Add WhatsApp to your App",
+      "text": "1. In your app dashboard, scroll down to <b>'WhatsApp'</b>.<br>2. Click <b>'Set up'</b>.<br>3. Select your Business Account (from step 2) and click continue.",
       "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
-      "title": "5. Phone Number Verification",
-      "text": "Under 'API Setup', click 'Add Phone Number'. Enter the details and choose to receive the verification code via SMS or Voice Call.",
+      "title": "5. Register and Verify Number",
+      "text": "1. In the sidebar, click <b>WhatsApp > API Setup</b>.<br>2. Scroll to 'Step 5' and click <b>'Add phone number'</b>.<br>3. Fill in the profile and category.<br>4. Choose <b>'Text message (SMS)'</b> to validate.<br>5. Enter the code you received.",
       "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
     },
     {
-      "title": "6. Handover to Integrator",
-      "text": "Copy and send me the: 1. Phone Number ID, 2. WhatsApp Business Account ID, and 3. Permanent Access Token.",
+      "title": "6. DATA TO SEND ME (Final Step)",
+      "text": "On the same 'API Setup' screen, copy these 3 items and send them to me:<br>• <b>Phone Number ID</b><br>• <b>WhatsApp Business Account ID</b><br>• <b>Temporary Access Token</b> (found at the top).",
       "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
   "faq": {
-    "title": "Common Questions",
+    "title": "Frequently Asked Questions",
     "items": [
-      { "q": "Can I use a landline?", "a": "Yes, as long as it can receive a voice call for the verification code." },
-      { "q": "Are there costs?", "a": "Yes. Meta charges per conversation. The first 1,000 service conversations per month are usually free." }
+      { "q": "Can I use a landline?", "a": "Yes, as long as it can receive voice calls for the verification code." },
+      { "q": "How long does it take?", "a": "Technical setup is instant. Meta's official verification takes 24h to 48h." }
     ]
   },
   "terms": {
-    "title": "Terms of Service",
-    "text": "The client is responsible for message content and compliance with Meta's Commerce Policies. SPAM behavior leads to number banning."
+    "title": "Terms and Conditions",
+    "text": "You agree not to send SPAM. Meta may ban numbers that receive multiple user reports."
   }
 }
