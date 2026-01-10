@@ -1,61 +1,52 @@
 {
   "title": "Guia Completo – WhatsApp Business API",
   "subtitle": "Passo a passo para empresas, sem conhecimento técnico",
-
   "steps": [
     {
       "title": "1. O que é a WhatsApp Business API",
-      "text": "A WhatsApp Business API é a versão oficial do WhatsApp para empresas que usam sistemas, automações e bots. Não é um aplicativo.",
-      "image": "assets/images/step1.png"
+      "text": "A WhatsApp Business API é a solução oficial do WhatsApp para empresas integrarem atendimento, bots e sistemas.",
+      "image": "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg"
     },
     {
-      "title": "2. O que você precisa antes de começar",
-      "text": "Empresa registrada, email corporativo e um número exclusivo que não esteja em uso no WhatsApp.",
-      "image": "assets/images/step2.png"
+      "title": "2. Requisitos antes de iniciar",
+      "text": "Certifique-se de ter uma empresa registada, email corporativo, e um número de telefone livre.",
+      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
       "title": "3. Criar ou acessar o Meta Business Manager",
-      "text": "Acesse business.facebook.com, crie ou utilize uma conta empresarial.",
-      "image": "assets/images/step3.png"
+      "text": "Vá para business.facebook.com e crie ou aceda à conta empresarial.",
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
-      "title": "4. Verificar a empresa",
-      "text": "Envie documentos oficiais. Sem verificação a API pode ser bloqueada.",
-      "image": "assets/images/placeholder.png"
+      "title": "4. Verificação da empresa",
+      "text": "Envie documentos oficiais; sem verificação a API pode ser bloqueada.",
+      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
     },
     {
       "title": "5. Criar App e adicionar WhatsApp",
-      "text": "No Meta Developers crie uma App Business e adicione o produto WhatsApp.",
-      "image": "assets/images/placeholder.png"
+      "text": "No portal developers.facebook.com crie um app Business e adicione o produto WhatsApp.",
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
-      "title": "6. Criar templates de mensagem",
-      "text": "Templates são obrigatórios para iniciar conversas. Devem ser aprovados pela Meta.",
-      "image": "assets/images/placeholder.png"
+      "title": "6. Criar templates de mensagens",
+      "text": "Templates são obrigatórios para iniciar conversas; precisam ser aprovados pela Meta.",
+      "image": "https://images.pexels.com/photos/3183166/pexels-photo-3183166.jpeg"
     },
     {
-      "title": "7. Gerar token e dados finais",
-      "text": "Entregue ao desenvolvedor o Token, Phone Number ID, WABA ID e templates.",
-      "image": "assets/images/placeholder.png"
+      "title": "7. Entregar dados técnicos ao integrador",
+      "text": "Forneça o Token, Phone Number ID, WhatsApp Business Account ID e templates aprovados.",
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
-
   "faq": {
     "title": "Perguntas Frequentes",
     "items": [
-      {
-        "q": "Posso usar meu WhatsApp pessoal?",
-        "a": "Não. O número precisa estar completamente livre."
-      },
-      {
-        "q": "Isso tem custo?",
-        "a": "Sim. A Meta cobra por interações."
-      }
+      { "q": "Posso usar meu WhatsApp pessoal?", "a": "Não. É necessário um número exclusivo." },
+      { "q": "Qual o custo?", "a": "A Meta cobra por conversação." }
     ]
   },
-
   "terms": {
     "title": "Termo de Responsabilidade",
-    "text": "O cliente é responsável pelo uso correto da API, cumprimento das políticas da Meta e consentimento dos utilizadores."
+    "text": "O cliente é responsável por utilizar a API de acordo com as políticas oficiais da Meta."
   }
 }

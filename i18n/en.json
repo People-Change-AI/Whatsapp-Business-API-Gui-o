@@ -6,37 +6,37 @@
     {
       "title": "1. What is the WhatsApp Business API",
       "text": "The WhatsApp Business API is the official WhatsApp solution designed for companies that need to integrate WhatsApp with systems, platforms, or automated services. It is not a mobile application and cannot be used like WhatsApp or WhatsApp Business App.",
-      "image": "assets/images/step1.png"
+      "image": "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg"
     },
     {
       "title": "2. What you need before starting",
       "text": "Your company must be legally registered, have a valid business email address, and own a phone number that has never been used with WhatsApp. This number must be dedicated exclusively to the WhatsApp Business API.",
-      "image": "assets/images/step2.png"
+      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
       "title": "3. Access or create a Meta Business Manager account",
       "text": "Go to business.facebook.com and create a Meta Business Manager account or use an existing one. This account will be used to manage your company assets, including WhatsApp.",
-      "image": "assets/images/step3.png"
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
       "title": "4. Business verification",
       "text": "Meta requires business verification using official company documents. Without completing this step, access to the WhatsApp Business API may be restricted or blocked.",
-      "image": "assets/images/placeholder.png"
+      "image": "https://images.pexels.com/photos/5668832/pexels-photo-5668832.jpeg"
     },
     {
       "title": "5. Create a Meta app and enable WhatsApp",
       "text": "Access developers.facebook.com, create a Business-type app, and add the WhatsApp product. This step connects your company to the WhatsApp Business API.",
-      "image": "assets/images/placeholder.png"
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
       "title": "6. Create and approve message templates",
       "text": "Message templates are mandatory to initiate conversations with customers. All templates must be submitted to Meta and approved before they can be used.",
-      "image": "assets/images/placeholder.png"
+      "image": "https://images.pexels.com/photos/3183166/pexels-photo-3183166.jpeg"
     },
     {
       "title": "7. Deliver technical information to the integrator",
       "text": "After configuration, you must provide the developer or integration partner with the Access Token, Phone Number ID, WhatsApp Business Account ID, and the list of approved templates.",
-      "image": "assets/images/placeholder.png"
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
     }
   ],
 
