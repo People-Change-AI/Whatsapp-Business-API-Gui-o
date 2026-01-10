@@ -2,33 +2,27 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Setup WhatsApp Business API</title>
+  <title>Guia Completo – WhatsApp Business API</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="top-bar">
-      <h1 id="title">Carregando...</h1>
-      <div class="controls">
-        <select id="languageSelector"></select>
-        <button onclick="window.print()">📄 Exportar Guia</button>
-      </div>
+      <h1 id="title"></h1>
+      <select id="languageSelector"></select>
+      <button onclick="generatePDF()">📄 Exportar PDF</button>
     </div>
   </header>
 
-  <main>
-    <div id="content"></div>
-    <section id="templatesSection"></section>
-  </main>
+  <main id="content"></main>
 
   <footer>
-    <p>&copy; 2024 Portal de Integração API - Todos os direitos reservados.</p>
+    <p>Guia Universal – WhatsApp Business API</p>
   </footer>
 
   <script src="js/lang.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/pdf.js"></script>
 </body>
 </html>
