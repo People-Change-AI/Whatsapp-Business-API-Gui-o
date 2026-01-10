@@ -2,36 +2,12 @@
   "title": "Configuração WhatsApp Business API",
   "subtitle": "Manual de ativação profissional para empresas (PT)",
   "steps": [
-    {
-      "title": "1. Requisitos Prévios",
-      "text": "Prepare o seguinte: <br>• <b>NIF e Nome Legal</b> da empresa.<br>• <b>Telemóvel/Fixo:</b> Não pode ter conta WhatsApp ativa. Apague-a nas Definições da conta antes de prosseguir.<br>• <b>Cartão de Crédito:</b> Para o registo de pagamentos à Meta.",
-      "image": "img/step1.png"
-    },
-    {
-      "title": "2. Gestor de Negócios",
-      "text": "1. Aceda a <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a>.<br>2. Clique em <b>'Criar conta'</b> ou inicie sessão.<br>3. Use o nome oficial da organização e e-mail corporativo.",
-      "image": "img/step2.png"
-    },
-    {
-      "title": "3. Aplicação de Integração",
-      "text": "1. Aceda a <a href='https://developers.facebook.com/apps/' target='_blank'>developers.facebook.com</a>.<br>2. Clique em <b>'Criar aplicação'</b> e escolha o tipo <b>'Business'</b>.<br>3. Identifique a aplicação com o nome da empresa.",
-      "image": "img/step3.png"
-    },
-    {
-      "title": "4. Configurar WhatsApp",
-      "text": "1. No menu da aplicação, selecione <b>'Configurar'</b> no produto WhatsApp.<br>2. Associe a conta empresarial criada anteriormente.<br>3. Aceda a 'Definições da API' no menu lateral.",
-      "image": "img/step4.png"
-    },
-    {
-      "title": "5. Validar Número",
-      "text": "1. Em 'Definições da API', clique em <b>'Adicionar número'</b>.<br>2. Escolha o método de validação por <b>SMS ou Voz</b>.<br>3. Introduza o código de verificação recebido.",
-      "image": "img/step5.png"
-    },
-    {
-      "title": "6. Gerar Token Permanente",
-      "text": "<b>VITAL:</b> O token temporário dura apenas 24h. Para manter o sistema ativo:<br>1. Vá a <b>Definições do Negócio > Utilizadores do Sistema</b>.<br>2. Crie um utilizador 'Admin-API' como <b>Administrador</b>.<br>3. Clique em <b>Gerar Novo Token</b>, selecione a App e ative a permissão <b>whatsapp_business_messaging</b>.<br>4. Envie-me este token final.",
-      "image": "img/step6.png"
-    }
+    { "title": "1. Requisitos Prévios", "text": "Prepare o NIF da empresa, um telemóvel sem conta WhatsApp e um cartão de crédito.", "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" },
+    { "title": "2. Gestor de Negócios", "text": "Aceda a <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a> e crie a conta empresarial.", "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" },
+    { "title": "3. Aplicação de Integração", "text": "Crie uma aplicação do tipo 'Business' em developers.facebook.com com o nome da empresa.", "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" },
+    { "title": "4. Configurar WhatsApp", "text": "Active o produto WhatsApp na sua aplicação e associe-o à conta empresarial.", "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg" },
+    { "title": "5. Definições da API", "text": "Em 'Definições da API', localize o seu <b>Phone Number ID</b> e valide o número através de SMS.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44cda1.png" },
+    { "title": "6. Token Permanente", "text": "<b>VITAL:</b> Vá a <b>Definições do Negócio > Utilizadores do Sistema</b>. Gere um Token Permanente para que a ligação nunca expire.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44d126.png" }
   ],
   "templates_guide": {
     "title": "Modelos de Mensagem",

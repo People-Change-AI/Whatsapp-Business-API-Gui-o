@@ -5,32 +5,32 @@
     {
       "title": "1. Requisitos Obrigatórios",
       "text": "Antes de começar, valide estes itens: <br>• <b>CNPJ e Razão Social</b> ativos.<br>• <b>Número de Telefone:</b> Não pode ter WhatsApp ativo. Se tiver, apague a conta em Configurações > Conta > Apagar conta.<br>• <b>Cartão de Crédito:</b> Necessário para o faturamento da Meta.",
-      "image": "img/step1.png"
+      "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
     },
     {
       "title": "2. Gerenciador de Negócios",
       "text": "1. Acesse o <a href='https://business.facebook.com/overview' target='_blank'>Meta Business Manager</a>.<br>2. Se não tiver conta, clique em <b>'Criar conta'</b>.<br>3. Use os dados reais da empresa e seu e-mail corporativo.",
-      "image": "img/step2.png"
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
     },
     {
       "title": "3. Aplicativo de Integração",
       "text": "1. Entre em <a href='https://developers.facebook.com/apps/' target='_blank'>developers.facebook.com</a>.<br>2. Clique em <b>'Criar aplicativo'</b>.<br>3. Escolha <b>'Negócios' (Business)</b>.<br>4. Nomeie o app com o nome da sua empresa.",
-      "image": "img/step3.png"
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
     {
       "title": "4. Configurar WhatsApp",
       "text": "1. No painel do seu app, clique em <b>'Configurar'</b> no produto WhatsApp.<br>2. Vincule o app à conta empresarial criada no passo 2.<br>3. Siga para 'Configuração da API' no menu lateral.",
-      "image": "img/step4.png"
+      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
     },
     {
-      "title": "5. Validar seu Número",
-      "text": "1. Em 'Configuração da API', role até a Etapa 5 e clique em <b>'Adicionar número'</b>.<br>2. Insira o nome de exibição e o número.<br>3. Escolha validar via <b>SMS</b> e insira o código recebido.",
-      "image": "img/step5.png"
+      "title": "5. Configuração da API e IDs",
+      "text": "1. Em 'Configuração da API', você verá o <b>Phone Number ID</b> e o <b>WhatsApp Business Account ID</b>.<br>2. Adicione seu número e valide via SMS.<br>3. Copie esses IDs, pois eles são fundamentais para a integração.",
+      "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44cda1.png"
     },
     {
       "title": "6. Gerar Token Permanente",
-      "text": "<b>MUITO IMPORTANTE:</b> O token da tela anterior expira em 24h. Para o sistema não parar:<br>1. Vá em <b>Ajustes do Negócio > Usuários do Sistema</b>.<br>2. Adicione um usuário chamado 'Integrador' como <b>Admin</b>.<br>3. Clique em <b>Gerar Novo Token</b>, selecione seu App e marque a permissão <b>whatsapp_business_messaging</b>.<br>4. Copie este token e envie para mim.",
-      "image": "img/step6.png"
+      "text": "<b>MUITO IMPORTANTE:</b> O token temporário expira em 24h. Para o sistema não parar:<br>1. Vá em <b>Ajustes do Negócio > Usuários do Sistema</b>.<br>2. Gere um <b>Novo Token</b>, selecione seu App e marque a permissão <b>whatsapp_business_messaging</b>.<br>3. Copie o token gerado.",
+      "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44d126.png"
     }
   ],
   "templates_guide": {

@@ -2,36 +2,12 @@
   "title": "WhatsApp Business API Setup",
   "subtitle": "Professional step-by-step integration guide",
   "steps": [
-    {
-      "title": "1. Mandatory Requirements",
-      "text": "Before starting: <br>• Active <b>Tax ID</b>.<br>• <b>Phone Number:</b> Must not have a WhatsApp account. Delete it in Settings > Account if necessary.<br>• <b>Credit Card:</b> For Meta's billing platform.",
-      "image": "img/step1.png"
-    },
-    {
-      "title": "2. Meta Business Manager",
-      "text": "1. Visit <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a>.<br>2. Click <b>'Create account'</b> or log in.<br>3. Use official business details and email.",
-      "image": "img/step2.png"
-    },
-    {
-      "title": "3. Developer App",
-      "text": "1. Access <a href='https://developers.facebook.com/apps/' target='_blank'>developers.facebook.com</a>.<br>2. Click <b>'Create App'</b>.<br>3. Choose <b>'Business'</b> type.<br>4. Enter your company name as the display name.",
-      "image": "img/step3.png"
-    },
-    {
-      "title": "4. WhatsApp Configuration",
-      "text": "1. In the app dashboard, click <b>'Set Up'</b> on the WhatsApp product.<br>2. Link it to your Business Account from step 2.<br>3. Go to 'API Setup' in the sidebar.",
-      "image": "img/step4.png"
-    },
-    {
-      "title": "5. Verify Phone Number",
-      "text": "1. In 'API Setup', click <b>'Add phone number'</b>.<br>2. Choose <b>SMS</b> verification.<br>3. Enter the 6-digit code sent to your phone.",
-      "image": "img/step5.png"
-    },
-    {
-      "title": "6. Permanent Access Token",
-      "text": "<b>CRITICAL:</b> Temporary tokens expire in 24h. For a permanent connection:<br>1. Go to <b>Business Settings > System Users</b>.<br>2. Add a user named 'Integrator' as <b>Admin</b>.<br>3. Click <b>Generate New Token</b>, select your App, and check <b>whatsapp_business_messaging</b>.<br>4. Send this token to me.",
-      "image": "img/step6.png"
-    }
+    { "title": "1. Mandatory Requirements", "text": "CNPJ/Tax ID, a clean phone number (no WhatsApp installed), and a Credit Card for Meta billing.", "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" },
+    { "title": "2. Meta Business Manager", "text": "Access <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a> and create your business account.", "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" },
+    { "title": "3. Developer App", "text": "Go to developers.facebook.com, create a 'Business' app and name it after your company.", "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" },
+    { "title": "4. Set up WhatsApp", "text": "Enable the WhatsApp product in your app dashboard and link it to your business account.", "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg" },
+    { "title": "5. API Setup & IDs", "text": "Inside 'API Setup', find your <b>Phone Number ID</b> and <b>Account ID</b>. Verify your phone number via SMS.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44cda1.png" },
+    { "title": "6. Permanent Access Token", "text": "<b>CRITICAL:</b> Go to <b>Business Settings > System Users</b>. Generate a token with <b>whatsapp_business_messaging</b> permission. This token will never expire.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44d126.png" }
   ],
   "templates_guide": {
     "title": "Message Templates",

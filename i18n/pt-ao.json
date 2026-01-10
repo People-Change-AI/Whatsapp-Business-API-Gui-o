@@ -2,36 +2,12 @@
   "title": "Guia de Configuração WhatsApp API",
   "subtitle": "Passo a passo para empresas em Angola",
   "steps": [
-    {
-      "title": "1. Preparação",
-      "text": "Tenha em mãos o NIF da empresa e um número de telefone limpo (sem WhatsApp). Apague qualquer conta ativa no número antes de começar.",
-      "image": "img/step1.png"
-    },
-    {
-      "title": "2. Conta Meta Business",
-      "text": "Vá para <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a> e crie a conta da sua empresa com dados oficiais.",
-      "image": "img/step2.png"
-    },
-    {
-      "title": "3. Criar Aplicativo",
-      "text": "Entre em <a href='https://developers.facebook.com/apps/' target='_blank'>developers.facebook.com</a> e crie um novo aplicativo do tipo 'Business'.",
-      "image": "img/step3.png"
-    },
-    {
-      "title": "4. Activar WhatsApp",
-      "text": "No painel do aplicativo, configure o produto WhatsApp e ligue-o à sua conta empresarial.",
-      "image": "img/step4.png"
-    },
-    {
-      "title": "5. Verificar Terminal",
-      "text": "Na aba 'Configuração da API', adicione o seu número e valide com o código enviado por SMS ou Voz.",
-      "image": "img/step5.png"
-    },
-    {
-      "title": "6. Token de Longa Duração",
-      "text": "<b>Atenção:</b> Vá em <b>Definições do Negócio > Utilizadores do Sistema</b>. Crie um administrador, gere um <b>Novo Token</b> com a permissão <i>whatsapp_business_messaging</i> e envie-me este código.",
-      "image": "img/step6.png"
-    }
+    { "title": "1. Preparação", "text": "Tenha o NIF da empresa e um número de telefone limpo (sem WhatsApp) para começar.", "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" },
+    { "title": "2. Conta Meta Business", "text": "Vá para <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a> e crie a conta da sua empresa.", "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" },
+    { "title": "3. Criar Aplicativo", "text": "Entre em developers.facebook.com e crie um aplicativo do tipo 'Business'.", "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" },
+    { "title": "4. Activar WhatsApp", "text": "No painel do aplicativo, configure o WhatsApp e ligue-o à sua conta empresarial.", "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg" },
+    { "title": "5. Verificar Número", "text": "Na 'Configuração da API', encontre os IDs do seu número e valide-o via SMS.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44cda1.png" },
+    { "title": "6. Token de Longa Duração", "text": "<b>Atenção:</b> Em <b>Utilizadores do Sistema</b>, gere um novo Token Permanente com a permissão <i>whatsapp_business_messaging</i>.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44d126.png" }
   ],
   "templates_guide": {
     "title": "Modelos de Mensagem",
