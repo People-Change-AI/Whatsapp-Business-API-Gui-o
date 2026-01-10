@@ -25,12 +25,12 @@
     {
       "title": "5. Configuração da API e IDs",
       "text": "1. Em 'Configuração da API', você verá o <b>Phone Number ID</b> e o <b>WhatsApp Business Account ID</b>.<br>2. Adicione seu número e valide via SMS.<br>3. Copie esses IDs, pois eles são fundamentais para a integração.",
-      "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44cda1.png"
+      "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg"
     },
     {
       "title": "6. Gerar Token Permanente",
       "text": "<b>MUITO IMPORTANTE:</b> O token temporário expira em 24h. Para o sistema não parar:<br>1. Vá em <b>Ajustes do Negócio > Usuários do Sistema</b>.<br>2. Gere um <b>Novo Token</b>, selecione seu App e marque a permissão <b>whatsapp_business_messaging</b>.<br>3. Copie o token gerado.",
-      "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44d126.png"
+      "image": "https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg"
     }
   ],
   "templates_guide": {
@@ -39,6 +39,16 @@
     "items": [
       { "name": "boas_vindas", "content": "Olá {{1}}! Seja bem-vindo à {{2}}. Como podemos ajudar?" },
       { "name": "atendimento_humano", "content": "Aguarde um momento, {{1}}. Um atendente falará com você em breve." }
+    ]
+  },
+  "delivery_section": {
+    "title": "📋 Dados para me enviar",
+    "text": "Após concluir os passos acima, por favor, copie e me envie os seguintes dados para que eu possa finalizar a sua integração:",
+    "items": [
+      "✅ Token Permanente (Gerado no Passo 6)",
+      "✅ Identificador do número de telefone (Phone Number ID)",
+      "✅ Identificador da conta de WhatsApp Business (WABA ID)",
+      "✅ Nome dos Templates criados (ex: boas_vindas)"
     ]
   }
 }

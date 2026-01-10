@@ -24,6 +24,32 @@ fetch(`i18n/${lang}.json`)
             });
         }
 
+        if (content && data.templates_guide) {
+            content.innerHTML = `
+            <section id="templatesSection">
+                <div class="step special-step">
+                <h2>${data.templates_guide.title}</h2>
+                <p>${data.templates_guide.text}</p>
+                ${data.templates_guide.items.map(i => `
+                    <div class="template-item">
+                    <strong>${i.name}:</strong> <div class="code-block">${i.content}</div>
+                    </div>
+                `).join('')}
+                </div>
+            </section>`;
+        }
+
+        if (content && data.delivery_section) {
+            content.innerHTML += `
+            <section id="deliverySection">
+                <div class="step delivery-step">
+                  <h2>${data.delivery_section.title}</h2>
+                  <p>${data.delivery_section.text}</p>
+                  <ul>${data.delivery_section.items.map(i => `<li>${i}</li>`).join('')}</ul>
+                </div>
+            </section>`;
+        }
+
         // FAQ
         const faqContent = document.getElementById("faqContent");
         if (faqContent && data.faq?.items) {

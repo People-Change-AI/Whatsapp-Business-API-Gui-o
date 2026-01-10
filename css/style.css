@@ -118,7 +118,7 @@ main {
 .step img {
     width: 100%;
     height: auto;
-    max-height: 400px;
+    max-height: 300px;
     object-fit: contain; /* Mostra o print inteiro sem cortar */
     background: #f1f5f9;
     border-radius: 12px;
@@ -145,4 +145,29 @@ footer {
 @media (max-width: 640px) {
     .top-bar { flex-direction: column; gap: 15px; text-align: center; }
     .step { padding: 20px; }
+}
+
+
+.delivery-step {
+    border: 2px dashed #0b5cff !important;
+    background: #f0f7ff !important;
+}
+
+.delivery-step ul {
+    padding-left: 20px;
+    color: #1e293b;
+    font-weight: 600;
+}
+
+.delivery-step li {
+    margin-bottom: 10px;
+}
+
+.code-block {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: monospace;
+    border-left: 3px solid #cbd5e1;
+    margin-top: 5px;
 }

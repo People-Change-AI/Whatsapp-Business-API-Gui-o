@@ -1,19 +1,52 @@
 {
   "title": "Guia de Configuração WhatsApp API",
-  "subtitle": "Passo a passo para empresas em Angola",
+  "subtitle": "Passo a passo técnico para empresas em Angola",
   "steps": [
-    { "title": "1. Preparação", "text": "Tenha o NIF da empresa e um número de telefone limpo (sem WhatsApp) para começar.", "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" },
-    { "title": "2. Conta Meta Business", "text": "Vá para <a href='https://business.facebook.com/overview' target='_blank'>business.facebook.com</a> e crie a conta da sua empresa.", "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" },
-    { "title": "3. Criar Aplicativo", "text": "Entre em developers.facebook.com e crie um aplicativo do tipo 'Business'.", "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" },
-    { "title": "4. Activar WhatsApp", "text": "No painel do aplicativo, configure o WhatsApp e ligue-o à sua conta empresarial.", "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg" },
-    { "title": "5. Verificar Número", "text": "Na 'Configuração da API', encontre os IDs do seu número e valide-o via SMS.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44cda1.png" },
-    { "title": "6. Token de Longa Duração", "text": "<b>Atenção:</b> Em <b>Utilizadores do Sistema</b>, gere um novo Token Permanente com a permissão <i>whatsapp_business_messaging</i>.", "image": "https://raw.githubusercontent.com/otallyto/api-whatsapp-gui/main/image_44d126.png" }
+    {
+      "title": "1. Requisitos Prévios",
+      "text": "Antes de começar, confirme: <br>• <b>NIF</b> da empresa ativo.<br>• <b>Número de Telefone:</b> Sem conta WhatsApp activa.<br>• <b>Cartão de Crédito:</b> Para pagamentos à Meta.",
+      "image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
+    },
+    {
+      "title": "2. Meta Business Suite",
+      "text": "1. Entre no <a href='https://business.facebook.com/overview' target='_blank'>Gerenciador de Negócios</a>.<br>2. Crie a conta com os dados oficiais da sua empresa.",
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+    },
+    {
+      "title": "3. Criar Aplicativo",
+      "text": "Crie um aplicativo do tipo <b>'Business'</b> no portal de desenvolvedores da Meta.",
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+    },
+    {
+      "title": "4. Activar WhatsApp",
+      "text": "Configure o produto WhatsApp e ligue-o à conta do passo 2.",
+      "image": "https://images.pexels.com/photos/3183161/pexels-photo-3183161.jpeg"
+    },
+    {
+      "title": "5. Verificar Terminal",
+      "text": "Adicione o número e valide com o código SMS. Guarde o <b>Phone Number ID</b>.",
+      "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg"
+    },
+    {
+      "title": "6. Token Permanente",
+      "text": "<b>ATENÇÃO:</b> Vá em <b>Utilizadores do Sistema</b> e gere o token com permissão <i>whatsapp_business_messaging</i> para que o sistema nunca pare.",
+      "image": "https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg"
+    }
   ],
   "templates_guide": {
     "title": "Modelos de Mensagem",
-    "text": "Crie os modelos no <a href='https://business.facebook.com/wa/manage/message-templates/' target='_blank'>Gestor de Modelos</a>:",
+    "text": "Crie os modelos no Gestor de Modelos da Meta:",
     "items": [
-      { "name": "boas_vindas", "content": "Olá {{1}}, obrigado pelo contacto! Como podemos ajudar?" }
+      { "name": "boas_vindas", "content": "Olá {{1}}! Bem-vindo à {{2}}." }
+    ]
+  },
+  "delivery_section": {
+    "title": "📋 Dados para me enviar",
+    "text": "Envie estes dados para concluir a activação:",
+    "items": [
+      "✅ Token Permanente (Passo 6)",
+      "✅ Phone Number ID",
+      "✅ WABA ID"
     ]
   }
 }
